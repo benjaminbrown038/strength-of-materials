@@ -1,0 +1,9 @@
+{
+  "force_N": 10000,
+  "length_m": 0.5,
+  "diameter_m": 0.012,
+  "E_Pa": 69000000000.0,
+  "poisson": 0.33,
+  "alpha_per_K": 2.3e-05,
+  "temperature_change_K": 40
+}

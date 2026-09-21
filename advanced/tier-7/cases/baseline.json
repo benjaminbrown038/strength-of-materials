@@ -1,0 +1,16 @@
+{
+  "nominal_max_stress_Pa": 70000000.0,
+  "nominal_min_stress_Pa": 20000000.0,
+  "Kt": 2,
+  "notch_sensitivity": 0.8,
+  "fatigue_strength_Pa": 140000000.0,
+  "target_cycles": 1000000.0,
+  "ultimate_strength_Pa": 500000000.0,
+  "yield_strength_Pa": 350000000.0,
+  "crack_start_m": 0.001,
+  "crack_end_m": 0.003,
+  "geometry_factor": 1.12,
+  "toughness_Pa_sqrt_m": 30000000.0,
+  "paris_C_SI": 1e-30,
+  "paris_m": 3
+}

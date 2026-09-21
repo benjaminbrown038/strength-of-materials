@@ -1,0 +1,308 @@
+{
+  "inputs": {
+    "nominal_max_stress_Pa": 70000000.0,
+    "nominal_min_stress_Pa": 20000000.0,
+    "Kt": 2,
+    "notch_sensitivity": 0.8,
+    "fatigue_strength_Pa": 140000000.0,
+    "target_cycles": 1000000.0,
+    "ultimate_strength_Pa": 500000000.0,
+    "yield_strength_Pa": 350000000.0,
+    "crack_start_m": 0.001,
+    "crack_end_m": 0.003,
+    "geometry_factor": 1.12,
+    "toughness_Pa_sqrt_m": 30000000.0,
+    "paris_C_SI": 1e-30,
+    "paris_m": 3
+  },
+  "title": "Tier 7: stress concentration, fatigue, and fracture",
+  "metrics": {
+    "nominal_amplitude_MPa": 25.0,
+    "nominal_mean_MPa": 45.0,
+    "fatigue_notch_factor_Kf": 1.8,
+    "target_cycles_for_fatigue_strength": 1000000.0,
+    "goodman_utilization": 0.5014285714285714,
+    "goodman_proportional_load_factor": 1.9943019943019942,
+    "elastic_notch_peak_MPa": 140.0,
+    "notch_elasticity_screen": "below yield",
+    "initial_Kmax_MPa_sqrt_m": 4.3943131136559765,
+    "final_Kmax_MPa_sqrt_m": 7.611173577218342,
+    "fracture_critical_crack_mm": 46.60800473198204,
+    "paris_cycles_between_sizes": 27335165.16327843
+  },
+  "tables": [
+    {
+      "name": "crack_growth",
+      "rows": [
+        {
+          "crack_mm": 1.0,
+          "elapsed_cycles": -0.0,
+          "Kmax_MPa_sqrt_m": 4.3943131136559765
+        },
+        {
+          "crack_mm": 1.04,
+          "elapsed_cycles": 1255958.299867289,
+          "Kmax_MPa_sqrt_m": 4.481337663073699
+        },
+        {
+          "crack_mm": 1.08,
+          "elapsed_cycles": 2441478.476823938,
+          "Kmax_MPa_sqrt_m": 4.566704146331005
+        },
+        {
+          "crack_mm": 1.12,
+          "elapsed_cycles": 3562907.567678667,
+          "Kmax_MPa_sqrt_m": 4.6505038726734504
+        },
+        {
+          "crack_mm": 1.16,
+          "elapsed_cycles": 4625819.73949684,
+          "Kmax_MPa_sqrt_m": 4.732820066237962
+        },
+        {
+          "crack_mm": 1.2000000000000002,
+          "elapsed_cycles": 5635133.227105633,
+          "Kmax_MPa_sqrt_m": 4.813728834180283
+        },
+        {
+          "crack_mm": 1.24,
+          "elapsed_cycles": 6595206.348343941,
+          "Kmax_MPa_sqrt_m": 4.893299990666075
+        },
+        {
+          "crack_mm": 1.28,
+          "elapsed_cycles": 7509916.881839757,
+          "Kmax_MPa_sqrt_m": 4.971597762116981
+        },
+        {
+          "crack_mm": 1.32,
+          "elapsed_cycles": 8382728.110481666,
+          "Kmax_MPa_sqrt_m": 5.048681393980069
+        },
+        {
+          "crack_mm": 1.36,
+          "elapsed_cycles": 9216744.099456029,
+          "Kmax_MPa_sqrt_m": 5.124605675323175
+        },
+        {
+          "crack_mm": 1.4,
+          "elapsed_cycles": 10014756.223105216,
+          "Kmax_MPa_sqrt_m": 5.19942139446193
+        },
+        {
+          "crack_mm": 1.44,
+          "elapsed_cycles": 10779282.532160025,
+          "Kmax_MPa_sqrt_m": 5.273175736387173
+        },
+        {
+          "crack_mm": 1.48,
+          "elapsed_cycles": 11512601.227997089,
+          "Kmax_MPa_sqrt_m": 5.345912630828936
+        },
+        {
+          "crack_mm": 1.52,
+          "elapsed_cycles": 12216779.258850042,
+          "Kmax_MPa_sqrt_m": 5.417673058250221
+        },
+        {
+          "crack_mm": 1.5600000000000003,
+          "elapsed_cycles": 12893696.856413865,
+          "Kmax_MPa_sqrt_m": 5.488495319823482
+        },
+        {
+          "crack_mm": 1.5999999999999999,
+          "elapsed_cycles": 13545068.676820824,
+          "Kmax_MPa_sqrt_m": 5.5584152764397
+        },
+        {
+          "crack_mm": 1.64,
+          "elapsed_cycles": 14172462.087733041,
+          "Kmax_MPa_sqrt_m": 5.627466560983919
+        },
+        {
+          "crack_mm": 1.6800000000000002,
+          "elapsed_cycles": 14777313.045955574,
+          "Kmax_MPa_sqrt_m": 5.695680767443531
+        },
+        {
+          "crack_mm": 1.7200000000000002,
+          "elapsed_cycles": 15360939.931991484,
+          "Kmax_MPa_sqrt_m": 5.763087619866636
+        },
+        {
+          "crack_mm": 1.7599999999999998,
+          "elapsed_cycles": 15924555.645132607,
+          "Kmax_MPa_sqrt_m": 5.829715123734095
+        },
+        {
+          "crack_mm": 1.8,
+          "elapsed_cycles": 16469278.211788395,
+          "Kmax_MPa_sqrt_m": 5.895589701932114
+        },
+        {
+          "crack_mm": 1.84,
+          "elapsed_cycles": 16996140.11832055,
+          "Kmax_MPa_sqrt_m": 5.960736317197897
+        },
+        {
+          "crack_mm": 1.88,
+          "elapsed_cycles": 17506096.5457524,
+          "Kmax_MPa_sqrt_m": 6.025178582647647
+        },
+        {
+          "crack_mm": 1.9200000000000002,
+          "elapsed_cycles": 18000032.655857995,
+          "Kmax_MPa_sqrt_m": 6.0889388617746745
+        },
+        {
+          "crack_mm": 1.96,
+          "elapsed_cycles": 18478770.055131476,
+          "Kmax_MPa_sqrt_m": 6.152038359118368
+        },
+        {
+          "crack_mm": 2.0,
+          "elapsed_cycles": 18943072.544063836,
+          "Kmax_MPa_sqrt_m": 6.214497202646227
+        },
+        {
+          "crack_mm": 2.04,
+          "elapsed_cycles": 19393651.243276063,
+          "Kmax_MPa_sqrt_m": 6.276334518756289
+        },
+        {
+          "crack_mm": 2.08,
+          "elapsed_cycles": 19831169.17478753,
+          "Kmax_MPa_sqrt_m": 6.337568500692177
+        },
+        {
+          "crack_mm": 2.1200000000000006,
+          "elapsed_cycles": 20256245.365567546,
+          "Kmax_MPa_sqrt_m": 6.398216471064389
+        },
+        {
+          "crack_mm": 2.16,
+          "elapsed_cycles": 20669458.53114705,
+          "Kmax_MPa_sqrt_m": 6.4582949390867554
+        },
+        {
+          "crack_mm": 2.1999999999999997,
+          "elapsed_cycles": 21071350.389151853,
+          "Kmax_MPa_sqrt_m": 6.517819653064017
+        },
+        {
+          "crack_mm": 2.2399999999999998,
+          "elapsed_cycles": 21462428.645910293,
+          "Kmax_MPa_sqrt_m": 6.5768056486033935
+        },
+        {
+          "crack_mm": 2.28,
+          "elapsed_cycles": 21843169.69358424,
+          "Kmax_MPa_sqrt_m": 6.635267292968344
+        },
+        {
+          "crack_mm": 2.32,
+          "elapsed_cycles": 22214021.050408646,
+          "Kmax_MPa_sqrt_m": 6.693218325945256
+        },
+        {
+          "crack_mm": 2.3600000000000003,
+          "elapsed_cycles": 22575403.572464224,
+          "Kmax_MPa_sqrt_m": 6.750671897552373
+        },
+        {
+          "crack_mm": 2.4000000000000004,
+          "elapsed_cycles": 22927713.46183987,
+          "Kmax_MPa_sqrt_m": 6.8076406028841845
+        },
+        {
+          "crack_mm": 2.4400000000000004,
+          "elapsed_cycles": 23271324.09297208,
+          "Kmax_MPa_sqrt_m": 6.864136514352791
+        },
+        {
+          "crack_mm": 2.48,
+          "elapsed_cycles": 23606587.676302414,
+          "Kmax_MPa_sqrt_m": 6.920171211560104
+        },
+        {
+          "crack_mm": 2.5199999999999996,
+          "elapsed_cycles": 23933836.776105832,
+          "Kmax_MPa_sqrt_m": 6.975755809010174
+        },
+        {
+          "crack_mm": 2.5599999999999996,
+          "elapsed_cycles": 24253385.69736006,
+          "Kmax_MPa_sqrt_m": 7.0309009818495625
+        },
+        {
+          "crack_mm": 2.6,
+          "elapsed_cycles": 24565531.754803367,
+          "Kmax_MPa_sqrt_m": 7.0856169898045644
+        },
+        {
+          "crack_mm": 2.64,
+          "elapsed_cycles": 24870556.43582852,
+          "Kmax_MPa_sqrt_m": 7.139913699467316
+        },
+        {
+          "crack_mm": 2.68,
+          "elapsed_cycles": 25168726.467551645,
+          "Kmax_MPa_sqrt_m": 7.193800605067881
+        },
+        {
+          "crack_mm": 2.72,
+          "elapsed_cycles": 25460294.797250297,
+          "Kmax_MPa_sqrt_m": 7.2472868478561665
+        },
+        {
+          "crack_mm": 2.76,
+          "elapsed_cycles": 25745501.494361706,
+          "Kmax_MPa_sqrt_m": 7.300381234205712
+        },
+        {
+          "crack_mm": 2.8,
+          "elapsed_cycles": 26024574.581351716,
+          "Kmax_MPa_sqrt_m": 7.353092252540892
+        },
+        {
+          "crack_mm": 2.84,
+          "elapsed_cycles": 26297730.799989417,
+          "Kmax_MPa_sqrt_m": 7.405428089179641
+        },
+        {
+          "crack_mm": 2.88,
+          "elapsed_cycles": 26565176.31887989,
+          "Kmax_MPa_sqrt_m": 7.457396643175471
+        },
+        {
+          "crack_mm": 2.92,
+          "elapsed_cycles": 26827107.387503542,
+          "Kmax_MPa_sqrt_m": 7.509005540234922
+        },
+        {
+          "crack_mm": 2.96,
+          "elapsed_cycles": 27083710.941477157,
+          "Kmax_MPa_sqrt_m": 7.560262145779913
+        },
+        {
+          "crack_mm": 3.0,
+          "elapsed_cycles": 27335165.16327843,
+          "Kmax_MPa_sqrt_m": 7.611173577218342
+        }
+      ],
+      "x": "elapsed_cycles",
+      "ys": [
+        "crack_mm"
+      ],
+      "xlabel": "Elapsed cycles",
+      "ylabel": "Crack size a (mm)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "Synthetic teaching properties; fatigue strength belongs to the specified target cycles, not an assumed endurance limit.",
+    "Notched-part screening and pre-existing-crack propagation are separate exercises; their lives are not added.",
+    "The crack uses nominal far-field stress and Y; do not multiply by the notch Kt again.",
+    "Paris C uses Pa sqrt(m), not MPa sqrt(m). Constant Y, tensile cycles, and mid-regime growth are assumed; no threshold or closure model is included."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "torque_Nm": 50,
+  "length_m": 0.4,
+  "outer_diameter_m": 0.025,
+  "inner_diameter_m": 0,
+  "G_Pa": 26000000000.0,
+  "pin_force_N": 1000,
+  "pin_diameter_m": 0.008,
+  "shear_planes": 2,
+  "loaded_plate_thickness_m": 0.004
+}

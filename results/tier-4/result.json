@@ -1,0 +1,951 @@
+{
+  "inputs": {
+    "axial_force_N": 4000,
+    "bending_moment_Nm": 60,
+    "torque_Nm": 50,
+    "diameter_m": 0.025,
+    "E_Pa": 200000000000.0,
+    "poisson": 0.3,
+    "yield_strength_Pa": 350000000.0
+  },
+  "title": "Tier 4: combined loading and stress transformation",
+  "metrics": {
+    "selected_normal_MPa": 47.26265190056923,
+    "torsional_shear_MPa": 16.29746617261008,
+    "in_plane_principal_plus_MPa": 52.33754426297716,
+    "in_plane_principal_minus_MPa": -5.0748923624079305,
+    "out_of_plane_principal_MPa": 0,
+    "von_mises_MPa": 55.050708220843894,
+    "maximum_3D_shear_MPa": 28.706218312692545,
+    "yield_strength_to_demand": 6.357774701025176,
+    "axial_strain": 0.00023631325950284614,
+    "transverse_strain": -7.089397785085385e-05,
+    "out_of_plane_strain": -7.089397785085385e-05,
+    "engineering_shear_strain": 0.00021186706024393104
+  },
+  "tables": [
+    {
+      "name": "stress_rotation",
+      "rows": [
+        {
+          "angle_deg": 0.0,
+          "normal_MPa": 47.26265190056923,
+          "shear_MPa": 16.29746617261008
+        },
+        {
+          "angle_deg": 1.0,
+          "normal_MPa": 47.8170297022475,
+          "shear_MPa": 15.462816814482842
+        },
+        {
+          "angle_deg": 2.0,
+          "normal_MPa": 48.34194094942607,
+          "shear_MPa": 14.609328395931492
+        },
+        {
+          "angle_deg": 3.0,
+          "normal_MPa": 48.83674611860663,
+          "shear_MPa": 13.738040761124223
+        },
+        {
+          "angle_deg": 4.0,
+          "normal_MPa": 49.300842365909425,
+          "shear_MPa": 12.85001543983248
+        },
+        {
+          "angle_deg": 5.0,
+          "normal_MPa": 49.73366426154566,
+          "shear_MPa": 11.946334354120438
+        },
+        {
+          "angle_deg": 6.0,
+          "normal_MPa": 50.134684478706625,
+          "shear_MPa": 11.028098500189639
+        },
+        {
+          "angle_deg": 7.0,
+          "normal_MPa": 50.50341443603013,
+          "shear_MPa": 10.096426606984709
+        },
+        {
+          "angle_deg": 8.0,
+          "normal_MPa": 50.839404892861644,
+          "shear_MPa": 9.152453773194463
+        },
+        {
+          "angle_deg": 9.0,
+          "normal_MPa": 51.14224649658491,
+          "shear_MPa": 8.197330084309002
+        },
+        {
+          "angle_deg": 10.0,
+          "normal_MPa": 51.41157028135495,
+          "shear_MPa": 7.232219211417715
+        },
+        {
+          "angle_deg": 11.0,
+          "normal_MPa": 51.647048117626184,
+          "shear_MPa": 6.258296993455281
+        },
+        {
+          "angle_deg": 12.0,
+          "normal_MPa": 51.84839311192767,
+          "shear_MPa": 5.276750004623072
+        },
+        {
+          "angle_deg": 13.0,
+          "normal_MPa": 52.01535995639871,
+          "shear_MPa": 4.2887741087312605
+        },
+        {
+          "angle_deg": 14.0,
+          "normal_MPa": 52.147745227658554,
+          "shear_MPa": 3.2955730022229646
+        },
+        {
+          "angle_deg": 15.0,
+          "normal_MPa": 52.24538763464657,
+          "shear_MPa": 2.2983567476555686
+        },
+        {
+          "angle_deg": 16.0,
+          "normal_MPa": 52.30816821513051,
+          "shear_MPa": 1.2983402994258684
+        },
+        {
+          "angle_deg": 17.0,
+          "normal_MPa": 52.33601048064365,
+          "shear_MPa": 0.29674202353530565
+        },
+        {
+          "angle_deg": 18.0,
+          "normal_MPa": 52.328880509674235,
+          "shear_MPa": -0.7052177868013252
+        },
+        {
+          "angle_deg": 19.0,
+          "normal_MPa": 52.286786988993605,
+          "shear_MPa": -1.7063183978952132
+        },
+        {
+          "angle_deg": 20.0,
+          "normal_MPa": 52.20978120307271,
+          "shear_MPa": -2.705340122859463
+        },
+        {
+          "angle_deg": 21.0,
+          "normal_MPa": 52.097956971599864,
+          "shear_MPa": -3.7010658076097127
+        },
+        {
+          "angle_deg": 22.0,
+          "normal_MPa": 51.95145053517589,
+          "shear_MPa": -4.692282313778868
+        },
+        {
+          "angle_deg": 23.0,
+          "normal_MPa": 51.770440389326,
+          "shear_MPa": -5.677781996739371
+        },
+        {
+          "angle_deg": 24.0,
+          "normal_MPa": 51.55514706703044,
+          "shear_MPa": -6.656364176932115
+        },
+        {
+          "angle_deg": 25.0,
+          "normal_MPa": 51.30583287003902,
+          "shear_MPa": -7.6268366027095675
+        },
+        {
+          "angle_deg": 26.0,
+          "normal_MPa": 51.02280154929688,
+          "shear_MPa": -8.588016902910734
+        },
+        {
+          "angle_deg": 27.0,
+          "normal_MPa": 50.706397934870715,
+          "shear_MPa": -9.538734027398295
+        },
+        {
+          "angle_deg": 28.0,
+          "normal_MPa": 50.35700751582644,
+          "shear_MPa": -10.477829673802814
+        },
+        {
+          "angle_deg": 29.0,
+          "normal_MPa": 49.97505597057022,
+          "shear_MPa": -11.40415969873573
+        },
+        {
+          "angle_deg": 30.0,
+          "normal_MPa": 49.5610086482248,
+          "shear_MPa": -12.316595511751876
+        },
+        {
+          "angle_deg": 31.0,
+          "normal_MPa": 49.11537000167336,
+          "shear_MPa": -13.214025450363048
+        },
+        {
+          "angle_deg": 32.0,
+          "normal_MPa": 48.63868297296138,
+          "shear_MPa": -14.095356134427536
+        },
+        {
+          "angle_deg": 33.0,
+          "normal_MPa": 48.131528331805306,
+          "shear_MPa": -14.959513798265395
+        },
+        {
+          "angle_deg": 34.0,
+          "normal_MPa": 47.594523968014215,
+          "shear_MPa": -15.805445598876517
+        },
+        {
+          "angle_deg": 35.0,
+          "normal_MPa": 47.02832413868621,
+          "shear_MPa": -16.632120898667655
+        },
+        {
+          "angle_deg": 36.0,
+          "normal_MPa": 46.43361867109692,
+          "shear_MPa": -17.438532521125598
+        },
+        {
+          "angle_deg": 37.0,
+          "normal_MPa": 45.81113212225125,
+          "shear_MPa": -18.22369797790656
+        },
+        {
+          "angle_deg": 38.0,
+          "normal_MPa": 45.16162289612227,
+          "shear_MPa": -18.986660665846923
+        },
+        {
+          "angle_deg": 39.0,
+          "normal_MPa": 44.485882319652795,
+          "shear_MPa": -19.726491032436815
+        },
+        {
+          "angle_deg": 40.0,
+          "normal_MPa": 43.78473367864539,
+          "shear_MPa": -20.44228770833669
+        },
+        {
+          "angle_deg": 41.0,
+          "normal_MPa": 43.059031214715446,
+          "shear_MPa": -21.13317860555699
+        },
+        {
+          "angle_deg": 42.0,
+          "normal_MPa": 42.309659084529386,
+          "shear_MPa": -21.79832197996302
+        },
+        {
+          "angle_deg": 43.0,
+          "normal_MPa": 41.537530282595895,
+          "shear_MPa": -22.436907456810562
+        },
+        {
+          "angle_deg": 44.0,
+          "normal_MPa": 40.74358552892283,
+          "shear_MPa": -23.048157018062632
+        },
+        {
+          "angle_deg": 45.0,
+          "normal_MPa": 39.9287921228947,
+          "shear_MPa": -23.631325950284616
+        },
+        {
+          "angle_deg": 46.0,
+          "normal_MPa": 39.094142764767454,
+          "shear_MPa": -24.185703751962887
+        },
+        {
+          "angle_deg": 47.0,
+          "normal_MPa": 38.240654346216104,
+          "shear_MPa": -24.710614999141455
+        },
+        {
+          "angle_deg": 48.0,
+          "normal_MPa": 37.36936671140884,
+          "shear_MPa": -25.205420168322014
+        },
+        {
+          "angle_deg": 49.0,
+          "normal_MPa": 36.4813413901171,
+          "shear_MPa": -25.669516415624813
+        },
+        {
+          "angle_deg": 50.0,
+          "normal_MPa": 35.57766030440506,
+          "shear_MPa": -26.102338311261054
+        },
+        {
+          "angle_deg": 51.0,
+          "normal_MPa": 34.659424450474255,
+          "shear_MPa": -26.503358528422012
+        },
+        {
+          "angle_deg": 52.0,
+          "normal_MPa": 33.72775255726932,
+          "shear_MPa": -26.872088485745504
+        },
+        {
+          "angle_deg": 53.0,
+          "normal_MPa": 32.78377972347908,
+          "shear_MPa": -27.20807894257703
+        },
+        {
+          "angle_deg": 54.0,
+          "normal_MPa": 31.82865603459362,
+          "shear_MPa": -27.510920546300287
+        },
+        {
+          "angle_deg": 55.0,
+          "normal_MPa": 30.86354516170233,
+          "shear_MPa": -27.780244331070335
+        },
+        {
+          "angle_deg": 56.0,
+          "normal_MPa": 29.889622943739894,
+          "shear_MPa": -28.01572216734157
+        },
+        {
+          "angle_deg": 57.0,
+          "normal_MPa": 28.908075954907684,
+          "shear_MPa": -28.21706716164306
+        },
+        {
+          "angle_deg": 58.0,
+          "normal_MPa": 27.92010005901587,
+          "shear_MPa": -28.384034006114092
+        },
+        {
+          "angle_deg": 59.0,
+          "normal_MPa": 26.926898952507578,
+          "shear_MPa": -28.516419277373938
+        },
+        {
+          "angle_deg": 60.0,
+          "normal_MPa": 25.929682697940187,
+          "shear_MPa": -28.614061684361957
+        },
+        {
+          "angle_deg": 61.0,
+          "normal_MPa": 24.929666249710486,
+          "shear_MPa": -28.67684226484589
+        },
+        {
+          "angle_deg": 62.0,
+          "normal_MPa": 23.928067973819925,
+          "shear_MPa": -28.704684530359028
+        },
+        {
+          "angle_deg": 63.0,
+          "normal_MPa": 22.926108163483292,
+          "shear_MPa": -28.69755455938962
+        },
+        {
+          "angle_deg": 64.0,
+          "normal_MPa": 21.925007552389406,
+          "shear_MPa": -28.655461038709
+        },
+        {
+          "angle_deg": 65.0,
+          "normal_MPa": 20.92598582742515,
+          "shear_MPa": -28.578455252788096
+        },
+        {
+          "angle_deg": 66.0,
+          "normal_MPa": 19.9302601426749,
+          "shear_MPa": -28.466631021315244
+        },
+        {
+          "angle_deg": 67.0,
+          "normal_MPa": 18.93904363650574,
+          "shear_MPa": -28.32012458489127
+        },
+        {
+          "angle_deg": 68.0,
+          "normal_MPa": 17.95354395354524,
+          "shear_MPa": -28.139114439041382
+        },
+        {
+          "angle_deg": 69.0,
+          "normal_MPa": 16.97496177335251,
+          "shear_MPa": -27.923821116745824
+        },
+        {
+          "angle_deg": 70.0,
+          "normal_MPa": 16.004489347575053,
+          "shear_MPa": -27.674506919754407
+        },
+        {
+          "angle_deg": 71.0,
+          "normal_MPa": 15.043309047373887,
+          "shear_MPa": -27.39147559901227
+        },
+        {
+          "angle_deg": 72.0,
+          "normal_MPa": 14.092591922886324,
+          "shear_MPa": -27.075071984586096
+        },
+        {
+          "angle_deg": 73.0,
+          "normal_MPa": 13.153496276481807,
+          "shear_MPa": -26.725681565541827
+        },
+        {
+          "angle_deg": 74.0,
+          "normal_MPa": 12.227166251548887,
+          "shear_MPa": -26.343730020285598
+        },
+        {
+          "angle_deg": 75.0,
+          "normal_MPa": 11.314730438532735,
+          "shear_MPa": -25.92968269794018
+        },
+        {
+          "angle_deg": 76.0,
+          "normal_MPa": 10.417300499921561,
+          "shear_MPa": -25.48404405138875
+        },
+        {
+          "angle_deg": 77.0,
+          "normal_MPa": 9.535969815857072,
+          "shear_MPa": -25.007357022676757
+        },
+        {
+          "angle_deg": 78.0,
+          "normal_MPa": 8.671812152019225,
+          "shear_MPa": -24.500202381520698
+        },
+        {
+          "angle_deg": 79.0,
+          "normal_MPa": 7.825880351408106,
+          "shear_MPa": -23.963198017729603
+        },
+        {
+          "angle_deg": 80.0,
+          "normal_MPa": 6.99920505161696,
+          "shear_MPa": -23.396998188401597
+        },
+        {
+          "angle_deg": 81.0,
+          "normal_MPa": 6.192793429159015,
+          "shear_MPa": -22.802292720812304
+        },
+        {
+          "angle_deg": 82.0,
+          "normal_MPa": 5.407627972378053,
+          "shear_MPa": -22.179806171966636
+        },
+        {
+          "angle_deg": 83.0,
+          "normal_MPa": 4.644665284437694,
+          "shear_MPa": -21.530296945837655
+        },
+        {
+          "angle_deg": 84.0,
+          "normal_MPa": 3.904834917847798,
+          "shear_MPa": -20.854556369368172
+        },
+        {
+          "angle_deg": 85.0,
+          "normal_MPa": 3.1890382419479235,
+          "shear_MPa": -20.153407728360765
+        },
+        {
+          "angle_deg": 86.0,
+          "normal_MPa": 2.4981473447276277,
+          "shear_MPa": -19.427705264430827
+        },
+        {
+          "angle_deg": 87.0,
+          "normal_MPa": 1.8330039703216015,
+          "shear_MPa": -18.678333134244774
+        },
+        {
+          "angle_deg": 88.0,
+          "normal_MPa": 1.194418493474055,
+          "shear_MPa": -17.906204332311287
+        },
+        {
+          "angle_deg": 89.0,
+          "normal_MPa": 0.5831689322219837,
+          "shear_MPa": -17.11225957863821
+        },
+        {
+          "angle_deg": 90.0,
+          "normal_MPa": 1.99586397824992e-15,
+          "shear_MPa": -16.297466172610083
+        },
+        {
+          "angle_deg": 91.0,
+          "normal_MPa": -0.554377801678271,
+          "shear_MPa": -15.462816814482842
+        },
+        {
+          "angle_deg": 92.0,
+          "normal_MPa": -1.079289048856839,
+          "shear_MPa": -14.609328395931492
+        },
+        {
+          "angle_deg": 93.0,
+          "normal_MPa": -1.5740942180373987,
+          "shear_MPa": -13.738040761124223
+        },
+        {
+          "angle_deg": 94.0,
+          "normal_MPa": -2.0381904653402,
+          "shear_MPa": -12.850015439832477
+        },
+        {
+          "angle_deg": 95.0,
+          "normal_MPa": -2.4710123609764425,
+          "shear_MPa": -11.946334354120435
+        },
+        {
+          "angle_deg": 96.0,
+          "normal_MPa": -2.8720325781374014,
+          "shear_MPa": -11.028098500189635
+        },
+        {
+          "angle_deg": 97.0,
+          "normal_MPa": -3.2407625354608864,
+          "shear_MPa": -10.096426606984712
+        },
+        {
+          "angle_deg": 98.0,
+          "normal_MPa": -3.5767529922924086,
+          "shear_MPa": -9.152453773194466
+        },
+        {
+          "angle_deg": 99.0,
+          "normal_MPa": -3.8795945960156732,
+          "shear_MPa": -8.197330084309007
+        },
+        {
+          "angle_deg": 100.0,
+          "normal_MPa": -4.1489183807857195,
+          "shear_MPa": -7.232219211417716
+        },
+        {
+          "angle_deg": 101.0,
+          "normal_MPa": -4.38439621705695,
+          "shear_MPa": -6.258296993455281
+        },
+        {
+          "angle_deg": 102.0,
+          "normal_MPa": -4.585741211358447,
+          "shear_MPa": -5.276750004623072
+        },
+        {
+          "angle_deg": 103.0,
+          "normal_MPa": -4.752708055829476,
+          "shear_MPa": -4.288774108731259
+        },
+        {
+          "angle_deg": 104.0,
+          "normal_MPa": -4.885093327089324,
+          "shear_MPa": -3.295573002222961
+        },
+        {
+          "angle_deg": 105.0,
+          "normal_MPa": -4.982735734077343,
+          "shear_MPa": -2.298356747655565
+        },
+        {
+          "angle_deg": 106.0,
+          "normal_MPa": -5.045516314561278,
+          "shear_MPa": -1.2983402994258721
+        },
+        {
+          "angle_deg": 107.0,
+          "normal_MPa": -5.0733585800744185,
+          "shear_MPa": -0.2967420235353131
+        },
+        {
+          "angle_deg": 108.0,
+          "normal_MPa": -5.066228609105004,
+          "shear_MPa": 0.7052177868013214
+        },
+        {
+          "angle_deg": 109.0,
+          "normal_MPa": -5.024135088424381,
+          "shear_MPa": 1.7063183978952094
+        },
+        {
+          "angle_deg": 110.0,
+          "normal_MPa": -4.947129302503483,
+          "shear_MPa": 2.705340122859463
+        },
+        {
+          "angle_deg": 111.0,
+          "normal_MPa": -4.835305071030628,
+          "shear_MPa": 3.7010658076097127
+        },
+        {
+          "angle_deg": 112.0,
+          "normal_MPa": -4.6887986346066555,
+          "shear_MPa": 4.692282313778874
+        },
+        {
+          "angle_deg": 113.0,
+          "normal_MPa": -4.507788488756766,
+          "shear_MPa": 5.677781996739371
+        },
+        {
+          "angle_deg": 114.0,
+          "normal_MPa": -4.292495166461205,
+          "shear_MPa": 6.656364176932117
+        },
+        {
+          "angle_deg": 115.0,
+          "normal_MPa": -4.043180969469793,
+          "shear_MPa": 7.626836602709561
+        },
+        {
+          "angle_deg": 116.0,
+          "normal_MPa": -3.76014964872765,
+          "shear_MPa": 8.588016902910741
+        },
+        {
+          "angle_deg": 117.0,
+          "normal_MPa": -3.4437460343014803,
+          "shear_MPa": 9.53873402739829
+        },
+        {
+          "angle_deg": 118.0,
+          "normal_MPa": -3.094355615257207,
+          "shear_MPa": 10.477829673802821
+        },
+        {
+          "angle_deg": 119.0,
+          "normal_MPa": -2.7124040700009857,
+          "shear_MPa": 11.404159698735729
+        },
+        {
+          "angle_deg": 120.0,
+          "normal_MPa": -2.2983567476555744,
+          "shear_MPa": 12.316595511751864
+        },
+        {
+          "angle_deg": 121.0,
+          "normal_MPa": -1.8527181011041365,
+          "shear_MPa": 13.214025450363055
+        },
+        {
+          "angle_deg": 122.0,
+          "normal_MPa": -1.3760310723921527,
+          "shear_MPa": 14.095356134427533
+        },
+        {
+          "angle_deg": 123.0,
+          "normal_MPa": -0.8688764312360734,
+          "shear_MPa": 14.9595137982654
+        },
+        {
+          "angle_deg": 124.0,
+          "normal_MPa": -0.3318720674449895,
+          "shear_MPa": 15.805445598876508
+        },
+        {
+          "angle_deg": 125.0,
+          "normal_MPa": 0.23432776188302784,
+          "shear_MPa": 16.63212089866766
+        },
+        {
+          "angle_deg": 126.0,
+          "normal_MPa": 0.8290332294723094,
+          "shear_MPa": 17.438532521125598
+        },
+        {
+          "angle_deg": 127.0,
+          "normal_MPa": 1.451519778317986,
+          "shear_MPa": 18.22369797790657
+        },
+        {
+          "angle_deg": 128.0,
+          "normal_MPa": 2.1010290044469593,
+          "shear_MPa": 18.986660665846923
+        },
+        {
+          "angle_deg": 129.0,
+          "normal_MPa": 2.776769580916431,
+          "shear_MPa": 19.72649103243681
+        },
+        {
+          "angle_deg": 130.0,
+          "normal_MPa": 3.4779182219238467,
+          "shear_MPa": 20.442287708336693
+        },
+        {
+          "angle_deg": 131.0,
+          "normal_MPa": 4.2036206858537755,
+          "shear_MPa": 21.13317860555698
+        },
+        {
+          "angle_deg": 132.0,
+          "normal_MPa": 4.952992816039849,
+          "shear_MPa": 21.798321979963024
+        },
+        {
+          "angle_deg": 133.0,
+          "normal_MPa": 5.7251216179733255,
+          "shear_MPa": 22.43690745681056
+        },
+        {
+          "angle_deg": 134.0,
+          "normal_MPa": 6.519066371646412,
+          "shear_MPa": 23.048157018062636
+        },
+        {
+          "angle_deg": 135.0,
+          "normal_MPa": 7.333859777674531,
+          "shear_MPa": 23.631325950284612
+        },
+        {
+          "angle_deg": 136.0,
+          "normal_MPa": 8.16850913580178,
+          "shear_MPa": 24.185703751962894
+        },
+        {
+          "angle_deg": 137.0,
+          "normal_MPa": 9.021997554353122,
+          "shear_MPa": 24.71061499914146
+        },
+        {
+          "angle_deg": 138.0,
+          "normal_MPa": 9.893285189160377,
+          "shear_MPa": 25.205420168322007
+        },
+        {
+          "angle_deg": 139.0,
+          "normal_MPa": 10.781310510452135,
+          "shear_MPa": 25.669516415624813
+        },
+        {
+          "angle_deg": 140.0,
+          "normal_MPa": 11.684991596164165,
+          "shear_MPa": 26.102338311261054
+        },
+        {
+          "angle_deg": 141.0,
+          "normal_MPa": 12.603227450094979,
+          "shear_MPa": 26.503358528422016
+        },
+        {
+          "angle_deg": 142.0,
+          "normal_MPa": 13.5348993432999,
+          "shear_MPa": 26.872088485745504
+        },
+        {
+          "angle_deg": 143.0,
+          "normal_MPa": 14.478872177090159,
+          "shear_MPa": 27.20807894257703
+        },
+        {
+          "angle_deg": 144.0,
+          "normal_MPa": 15.433995865975609,
+          "shear_MPa": 27.510920546300287
+        },
+        {
+          "angle_deg": 145.0,
+          "normal_MPa": 16.39910673886691,
+          "shear_MPa": 27.78024433107034
+        },
+        {
+          "angle_deg": 146.0,
+          "normal_MPa": 17.37302895682933,
+          "shear_MPa": 28.015722167341565
+        },
+        {
+          "angle_deg": 147.0,
+          "normal_MPa": 18.35457594566153,
+          "shear_MPa": 28.21706716164306
+        },
+        {
+          "angle_deg": 148.0,
+          "normal_MPa": 19.34255184155335,
+          "shear_MPa": 28.384034006114096
+        },
+        {
+          "angle_deg": 149.0,
+          "normal_MPa": 20.33575294806164,
+          "shear_MPa": 28.516419277373934
+        },
+        {
+          "angle_deg": 150.0,
+          "normal_MPa": 21.332969202629048,
+          "shear_MPa": 28.614061684361957
+        },
+        {
+          "angle_deg": 151.0,
+          "normal_MPa": 22.33298565085874,
+          "shear_MPa": 28.67684226484589
+        },
+        {
+          "angle_deg": 152.0,
+          "normal_MPa": 23.33458392674931,
+          "shear_MPa": 28.704684530359028
+        },
+        {
+          "angle_deg": 153.0,
+          "normal_MPa": 24.336543737085936,
+          "shear_MPa": 28.69755455938962
+        },
+        {
+          "angle_deg": 154.0,
+          "normal_MPa": 25.337644348179833,
+          "shear_MPa": 28.655461038709
+        },
+        {
+          "angle_deg": 155.0,
+          "normal_MPa": 26.336666073144073,
+          "shear_MPa": 28.578455252788096
+        },
+        {
+          "angle_deg": 156.0,
+          "normal_MPa": 27.332391757894307,
+          "shear_MPa": 28.466631021315244
+        },
+        {
+          "angle_deg": 157.0,
+          "normal_MPa": 28.323608264063484,
+          "shear_MPa": 28.320124584891268
+        },
+        {
+          "angle_deg": 158.0,
+          "normal_MPa": 29.309107947023968,
+          "shear_MPa": 28.139114439041382
+        },
+        {
+          "angle_deg": 159.0,
+          "normal_MPa": 30.287690127216734,
+          "shear_MPa": 27.923821116745824
+        },
+        {
+          "angle_deg": 160.0,
+          "normal_MPa": 31.258162552994175,
+          "shear_MPa": 27.674506919754407
+        },
+        {
+          "angle_deg": 161.0,
+          "normal_MPa": 32.21934285319536,
+          "shear_MPa": 27.39147559901227
+        },
+        {
+          "angle_deg": 162.0,
+          "normal_MPa": 33.170059977682904,
+          "shear_MPa": 27.075071984586096
+        },
+        {
+          "angle_deg": 163.0,
+          "normal_MPa": 34.109155624087435,
+          "shear_MPa": 26.725681565541823
+        },
+        {
+          "angle_deg": 164.0,
+          "normal_MPa": 35.035485649020345,
+          "shear_MPa": 26.343730020285598
+        },
+        {
+          "angle_deg": 165.0,
+          "normal_MPa": 35.94792146203648,
+          "shear_MPa": 25.92968269794019
+        },
+        {
+          "angle_deg": 166.0,
+          "normal_MPa": 36.84535140064767,
+          "shear_MPa": 25.484044051388757
+        },
+        {
+          "angle_deg": 167.0,
+          "normal_MPa": 37.726682084712145,
+          "shear_MPa": 25.00735702267677
+        },
+        {
+          "angle_deg": 168.0,
+          "normal_MPa": 38.59083974855001,
+          "shear_MPa": 24.500202381520687
+        },
+        {
+          "angle_deg": 169.0,
+          "normal_MPa": 39.43677154916112,
+          "shear_MPa": 23.963198017729606
+        },
+        {
+          "angle_deg": 170.0,
+          "normal_MPa": 40.26344684895228,
+          "shear_MPa": 23.396998188401586
+        },
+        {
+          "angle_deg": 171.0,
+          "normal_MPa": 41.069858471410214,
+          "shear_MPa": 22.802292720812307
+        },
+        {
+          "angle_deg": 172.0,
+          "normal_MPa": 41.85502392819119,
+          "shear_MPa": 22.17980617196663
+        },
+        {
+          "angle_deg": 173.0,
+          "normal_MPa": 42.61798661613154,
+          "shear_MPa": 21.53029694583766
+        },
+        {
+          "angle_deg": 174.0,
+          "normal_MPa": 43.357816982721424,
+          "shear_MPa": 20.854556369368186
+        },
+        {
+          "angle_deg": 175.0,
+          "normal_MPa": 44.073613658621305,
+          "shear_MPa": 20.15340772836077
+        },
+        {
+          "angle_deg": 176.0,
+          "normal_MPa": 44.76450455584159,
+          "shear_MPa": 19.42770526443084
+        },
+        {
+          "angle_deg": 177.0,
+          "normal_MPa": 45.42964793024763,
+          "shear_MPa": 18.678333134244767
+        },
+        {
+          "angle_deg": 178.0,
+          "normal_MPa": 46.06823340709517,
+          "shear_MPa": 17.90620433231129
+        },
+        {
+          "angle_deg": 179.0,
+          "normal_MPa": 46.67948296834725,
+          "shear_MPa": 17.112259578638202
+        },
+        {
+          "angle_deg": 180.0,
+          "normal_MPa": 47.262651900569224,
+          "shear_MPa": 16.297466172610086
+        }
+      ],
+      "x": "angle_deg",
+      "ys": [
+        "normal_MPa",
+        "shear_MPa"
+      ],
+      "xlabel": "Counterclockwise axis rotation (deg)",
+      "ylabel": "Transformed stress (MPa)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "The reported surface is the bending extreme with the largest absolute axial normal stress.",
+    "Plane stress sets the third normal stress to zero, not the third normal strain.",
+    "Von Mises is a ductile-yield indicator; it is not a fatigue or brittle-fracture criterion."
+  ]
+}

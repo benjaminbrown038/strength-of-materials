@@ -1,0 +1,246 @@
+{
+  "inputs": {
+    "torque_Nm": 50,
+    "length_m": 0.4,
+    "outer_diameter_m": 0.025,
+    "inner_diameter_m": 0,
+    "G_Pa": 26000000000.0,
+    "pin_force_N": 1000,
+    "pin_diameter_m": 0.008,
+    "shear_planes": 2,
+    "loaded_plate_thickness_m": 0.004
+  },
+  "title": "Tier 2: circular-shaft torsion and direct shear",
+  "metrics": {
+    "polar_moment_m4": 3.8349519697141036e-08,
+    "surface_shear_MPa": 16.29746617261008,
+    "twist_rad": 0.02005841990475087,
+    "twist_deg": 1.1492628042434274,
+    "surface_shear_strain": 0.0006268256220234647,
+    "pin_average_shear_MPa": 9.94718394324346,
+    "plate_bearing_MPa": 31.25
+  },
+  "tables": [
+    {
+      "name": "torsional_shear",
+      "rows": [
+        {
+          "radius_mm": 0.0,
+          "torsional_shear_MPa": 0.0
+        },
+        {
+          "radius_mm": 0.25,
+          "torsional_shear_MPa": 0.3259493234522016
+        },
+        {
+          "radius_mm": 0.5,
+          "torsional_shear_MPa": 0.6518986469044032
+        },
+        {
+          "radius_mm": 0.7500000000000001,
+          "torsional_shear_MPa": 0.977847970356605
+        },
+        {
+          "radius_mm": 1.0,
+          "torsional_shear_MPa": 1.3037972938088065
+        },
+        {
+          "radius_mm": 1.25,
+          "torsional_shear_MPa": 1.6297466172610082
+        },
+        {
+          "radius_mm": 1.5000000000000002,
+          "torsional_shear_MPa": 1.95569594071321
+        },
+        {
+          "radius_mm": 1.7500000000000002,
+          "torsional_shear_MPa": 2.281645264165411
+        },
+        {
+          "radius_mm": 2.0,
+          "torsional_shear_MPa": 2.607594587617613
+        },
+        {
+          "radius_mm": 2.2500000000000004,
+          "torsional_shear_MPa": 2.933543911069815
+        },
+        {
+          "radius_mm": 2.5,
+          "torsional_shear_MPa": 3.2594932345220164
+        },
+        {
+          "radius_mm": 2.7500000000000004,
+          "torsional_shear_MPa": 3.585442557974218
+        },
+        {
+          "radius_mm": 3.0000000000000004,
+          "torsional_shear_MPa": 3.91139188142642
+        },
+        {
+          "radius_mm": 3.2500000000000004,
+          "torsional_shear_MPa": 4.2373412048786205
+        },
+        {
+          "radius_mm": 3.5000000000000004,
+          "torsional_shear_MPa": 4.563290528330822
+        },
+        {
+          "radius_mm": 3.75,
+          "torsional_shear_MPa": 4.8892398517830244
+        },
+        {
+          "radius_mm": 4.0,
+          "torsional_shear_MPa": 5.215189175235226
+        },
+        {
+          "radius_mm": 4.25,
+          "torsional_shear_MPa": 5.5411384986874275
+        },
+        {
+          "radius_mm": 4.500000000000001,
+          "torsional_shear_MPa": 5.86708782213963
+        },
+        {
+          "radius_mm": 4.750000000000001,
+          "torsional_shear_MPa": 6.193037145591831
+        },
+        {
+          "radius_mm": 5.0,
+          "torsional_shear_MPa": 6.518986469044033
+        },
+        {
+          "radius_mm": 5.25,
+          "torsional_shear_MPa": 6.844935792496234
+        },
+        {
+          "radius_mm": 5.500000000000001,
+          "torsional_shear_MPa": 7.170885115948436
+        },
+        {
+          "radius_mm": 5.750000000000001,
+          "torsional_shear_MPa": 7.496834439400637
+        },
+        {
+          "radius_mm": 6.000000000000001,
+          "torsional_shear_MPa": 7.82278376285284
+        },
+        {
+          "radius_mm": 6.25,
+          "torsional_shear_MPa": 8.14873308630504
+        },
+        {
+          "radius_mm": 6.500000000000001,
+          "torsional_shear_MPa": 8.474682409757241
+        },
+        {
+          "radius_mm": 6.750000000000001,
+          "torsional_shear_MPa": 8.800631733209444
+        },
+        {
+          "radius_mm": 7.000000000000001,
+          "torsional_shear_MPa": 9.126581056661644
+        },
+        {
+          "radius_mm": 7.250000000000001,
+          "torsional_shear_MPa": 9.452530380113847
+        },
+        {
+          "radius_mm": 7.5,
+          "torsional_shear_MPa": 9.778479703566049
+        },
+        {
+          "radius_mm": 7.75,
+          "torsional_shear_MPa": 10.10442902701825
+        },
+        {
+          "radius_mm": 8.0,
+          "torsional_shear_MPa": 10.430378350470452
+        },
+        {
+          "radius_mm": 8.25,
+          "torsional_shear_MPa": 10.756327673922653
+        },
+        {
+          "radius_mm": 8.5,
+          "torsional_shear_MPa": 11.082276997374855
+        },
+        {
+          "radius_mm": 8.75,
+          "torsional_shear_MPa": 11.408226320827058
+        },
+        {
+          "radius_mm": 9.000000000000002,
+          "torsional_shear_MPa": 11.73417564427926
+        },
+        {
+          "radius_mm": 9.250000000000002,
+          "torsional_shear_MPa": 12.060124967731461
+        },
+        {
+          "radius_mm": 9.500000000000002,
+          "torsional_shear_MPa": 12.386074291183663
+        },
+        {
+          "radius_mm": 9.750000000000002,
+          "torsional_shear_MPa": 12.712023614635866
+        },
+        {
+          "radius_mm": 10.0,
+          "torsional_shear_MPa": 13.037972938088066
+        },
+        {
+          "radius_mm": 10.250000000000002,
+          "torsional_shear_MPa": 13.363922261540267
+        },
+        {
+          "radius_mm": 10.5,
+          "torsional_shear_MPa": 13.689871584992469
+        },
+        {
+          "radius_mm": 10.75,
+          "torsional_shear_MPa": 14.015820908444669
+        },
+        {
+          "radius_mm": 11.000000000000002,
+          "torsional_shear_MPa": 14.341770231896872
+        },
+        {
+          "radius_mm": 11.25,
+          "torsional_shear_MPa": 14.667719555349072
+        },
+        {
+          "radius_mm": 11.500000000000002,
+          "torsional_shear_MPa": 14.993668878801275
+        },
+        {
+          "radius_mm": 11.75,
+          "torsional_shear_MPa": 15.319618202253476
+        },
+        {
+          "radius_mm": 12.000000000000002,
+          "torsional_shear_MPa": 15.64556752570568
+        },
+        {
+          "radius_mm": 12.25,
+          "torsional_shear_MPa": 15.97151684915788
+        },
+        {
+          "radius_mm": 12.5,
+          "torsional_shear_MPa": 16.29746617261008
+        }
+      ],
+      "x": "radius_mm",
+      "ys": [
+        "torsional_shear_MPa"
+      ],
+      "xlabel": "Radius in shaft material (mm)",
+      "ylabel": "Shear stress (MPa)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "Torsion formulas apply to circular annular or solid shafts, not arbitrary open sections.",
+    "The pin example is a separate load case; its average shear is not the shaft's torsional shear.",
+    "Bearing uses the full force on the central loaded plate; in symmetric double shear each outer plate carries half."
+  ]
+}

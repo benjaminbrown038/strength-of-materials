@@ -1,0 +1,300 @@
+{
+  "inputs": {
+    "force_N": 10000,
+    "length_m": 0.5,
+    "E1_Pa": 200000000000.0,
+    "area1_m2": 0.0002,
+    "alpha1_per_K": 1.2e-05,
+    "E2_Pa": 69000000000.0,
+    "area2_m2": 0.0003,
+    "alpha2_per_K": 2.3e-05,
+    "temperature_change_K": 50
+  },
+  "title": "Tier 5: compatibility, thermal mismatch, and strain energy",
+  "metrics": {
+    "common_extension_mm": 0.47615321252059306,
+    "rod1_force_N": 14092.257001647444,
+    "rod2_force_N": -4092.257001647446,
+    "rod1_stress_MPa": 70.46128500823721,
+    "rod2_stress_MPa": -13.640856672158154,
+    "equilibrium_residual_N": -1.8189894035458565e-12,
+    "elastic_strain_energy_J": 1.4434514003294887,
+    "mechanical_only_extension_mm": 0.08237232289950576,
+    "equivalent_stiffness_N_per_m": 121400000.0
+  },
+  "tables": [
+    {
+      "name": "thermal_load_sharing",
+      "rows": [
+        {
+          "temperature_change_K": 0.0,
+          "rod1_force_N": 6589.785831960461,
+          "rod2_force_N": 3410.2141680395384
+        },
+        {
+          "temperature_change_K": 1.0,
+          "rod1_force_N": 6739.835255354202,
+          "rod2_force_N": 3260.1647446457996
+        },
+        {
+          "temperature_change_K": 2.0,
+          "rod1_force_N": 6889.884678747942,
+          "rod2_force_N": 3110.11532125206
+        },
+        {
+          "temperature_change_K": 3.0,
+          "rod1_force_N": 7039.934102141679,
+          "rod2_force_N": 2960.065897858319
+        },
+        {
+          "temperature_change_K": 4.0,
+          "rod1_force_N": 7189.98352553542,
+          "rod2_force_N": 2810.0164744645795
+        },
+        {
+          "temperature_change_K": 5.0,
+          "rod1_force_N": 7340.03294892916,
+          "rod2_force_N": 2659.96705107084
+        },
+        {
+          "temperature_change_K": 6.0,
+          "rod1_force_N": 7490.082372322898,
+          "rod2_force_N": 2509.9176276771004
+        },
+        {
+          "temperature_change_K": 7.0,
+          "rod1_force_N": 7640.131795716638,
+          "rod2_force_N": 2359.8682042833607
+        },
+        {
+          "temperature_change_K": 8.0,
+          "rod1_force_N": 7790.181219110379,
+          "rod2_force_N": 2209.8187808896214
+        },
+        {
+          "temperature_change_K": 9.0,
+          "rod1_force_N": 7940.23064250412,
+          "rod2_force_N": 2059.769357495882
+        },
+        {
+          "temperature_change_K": 10.0,
+          "rod1_force_N": 8090.280065897859,
+          "rod2_force_N": 1909.7199341021415
+        },
+        {
+          "temperature_change_K": 11.0,
+          "rod1_force_N": 8240.329489291596,
+          "rod2_force_N": 1759.6705107084006
+        },
+        {
+          "temperature_change_K": 12.0,
+          "rod1_force_N": 8390.378912685339,
+          "rod2_force_N": 1609.621087314663
+        },
+        {
+          "temperature_change_K": 13.0,
+          "rod1_force_N": 8540.42833607908,
+          "rod2_force_N": 1459.5716639209234
+        },
+        {
+          "temperature_change_K": 14.0,
+          "rod1_force_N": 8690.477759472817,
+          "rod2_force_N": 1309.5222405271825
+        },
+        {
+          "temperature_change_K": 15.0,
+          "rod1_force_N": 8840.527182866557,
+          "rod2_force_N": 1159.4728171334439
+        },
+        {
+          "temperature_change_K": 16.0,
+          "rod1_force_N": 8990.576606260296,
+          "rod2_force_N": 1009.4233937397031
+        },
+        {
+          "temperature_change_K": 17.0,
+          "rod1_force_N": 9140.626029654037,
+          "rod2_force_N": 859.3739703459634
+        },
+        {
+          "temperature_change_K": 18.0,
+          "rod1_force_N": 9290.675453047777,
+          "rod2_force_N": 709.3245469522248
+        },
+        {
+          "temperature_change_K": 19.0,
+          "rod1_force_N": 9440.724876441516,
+          "rod2_force_N": 559.275123558485
+        },
+        {
+          "temperature_change_K": 20.0,
+          "rod1_force_N": 9590.774299835255,
+          "rod2_force_N": 409.2257001647442
+        },
+        {
+          "temperature_change_K": 21.0,
+          "rod1_force_N": 9740.823723228996,
+          "rod2_force_N": 259.1762767710056
+        },
+        {
+          "temperature_change_K": 22.0,
+          "rod1_force_N": 9890.873146622733,
+          "rod2_force_N": 109.12685337726361
+        },
+        {
+          "temperature_change_K": 23.0,
+          "rod1_force_N": 10040.922570016477,
+          "rod2_force_N": -40.92257001647273
+        },
+        {
+          "temperature_change_K": 24.0,
+          "rod1_force_N": 10190.971993410214,
+          "rod2_force_N": -190.97199341021357
+        },
+        {
+          "temperature_change_K": 25.0,
+          "rod1_force_N": 10341.021416803951,
+          "rod2_force_N": -341.0214168039544
+        },
+        {
+          "temperature_change_K": 26.0,
+          "rod1_force_N": 10491.070840197699,
+          "rod2_force_N": -491.07084019769076
+        },
+        {
+          "temperature_change_K": 27.0,
+          "rod1_force_N": 10641.120263591432,
+          "rod2_force_N": -641.1202635914339
+        },
+        {
+          "temperature_change_K": 28.0,
+          "rod1_force_N": 10791.169686985175,
+          "rod2_force_N": -791.1696869851725
+        },
+        {
+          "temperature_change_K": 29.0,
+          "rod1_force_N": 10941.219110378914,
+          "rod2_force_N": -941.2191103789111
+        },
+        {
+          "temperature_change_K": 30.0,
+          "rod1_force_N": 11091.26853377265,
+          "rod2_force_N": -1091.2685337726518
+        },
+        {
+          "temperature_change_K": 31.0,
+          "rod1_force_N": 11241.317957166395,
+          "rod2_force_N": -1241.3179571663904
+        },
+        {
+          "temperature_change_K": 32.0,
+          "rod1_force_N": 11391.367380560128,
+          "rod2_force_N": -1391.3673805601336
+        },
+        {
+          "temperature_change_K": 33.0,
+          "rod1_force_N": 11541.416803953874,
+          "rod2_force_N": -1541.41680395387
+        },
+        {
+          "temperature_change_K": 34.0,
+          "rod1_force_N": 11691.466227347613,
+          "rod2_force_N": -1691.4662273476108
+        },
+        {
+          "temperature_change_K": 35.0,
+          "rod1_force_N": 11841.51565074135,
+          "rod2_force_N": -1841.5156507413517
+        },
+        {
+          "temperature_change_K": 36.0,
+          "rod1_force_N": 11991.565074135091,
+          "rod2_force_N": -1991.5650741350903
+        },
+        {
+          "temperature_change_K": 37.0,
+          "rod1_force_N": 12141.614497528832,
+          "rod2_force_N": -2141.614497528829
+        },
+        {
+          "temperature_change_K": 38.0,
+          "rod1_force_N": 12291.663920922569,
+          "rod2_force_N": -2291.6639209225696
+        },
+        {
+          "temperature_change_K": 39.0,
+          "rod1_force_N": 12441.71334431631,
+          "rod2_force_N": -2441.7133443163107
+        },
+        {
+          "temperature_change_K": 40.0,
+          "rod1_force_N": 12591.76276771005,
+          "rod2_force_N": -2591.762767710049
+        },
+        {
+          "temperature_change_K": 41.0,
+          "rod1_force_N": 12741.812191103789,
+          "rod2_force_N": -2741.8121911037897
+        },
+        {
+          "temperature_change_K": 42.0,
+          "rod1_force_N": 12891.861614497531,
+          "rod2_force_N": -2891.8616144975263
+        },
+        {
+          "temperature_change_K": 43.0,
+          "rod1_force_N": 13041.911037891272,
+          "rod2_force_N": -3041.911037891269
+        },
+        {
+          "temperature_change_K": 44.0,
+          "rod1_force_N": 13191.960461285007,
+          "rod2_force_N": -3191.9604612850103
+        },
+        {
+          "temperature_change_K": 45.0,
+          "rod1_force_N": 13342.009884678746,
+          "rod2_force_N": -3342.0098846787464
+        },
+        {
+          "temperature_change_K": 46.0,
+          "rod1_force_N": 13492.059308072487,
+          "rod2_force_N": -3492.0593080724875
+        },
+        {
+          "temperature_change_K": 47.0,
+          "rod1_force_N": 13642.108731466229,
+          "rod2_force_N": -3642.1087314662236
+        },
+        {
+          "temperature_change_K": 48.0,
+          "rod1_force_N": 13792.15815485997,
+          "rod2_force_N": -3792.1581548599647
+        },
+        {
+          "temperature_change_K": 49.0,
+          "rod1_force_N": 13942.207578253709,
+          "rod2_force_N": -3942.2075782537054
+        },
+        {
+          "temperature_change_K": 50.0,
+          "rod1_force_N": 14092.257001647444,
+          "rod2_force_N": -4092.257001647446
+        }
+      ],
+      "x": "temperature_change_K",
+      "ys": [
+        "rod1_force_N",
+        "rod2_force_N"
+      ],
+      "xlabel": "Temperature change (K)",
+      "ylabel": "Axial rod force, tension positive (N)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "Both rods have the same initial length and share a rigid end plate guided against rotation.",
+    "Compatibility requires equal extension, not equal stress or equal force.",
+    "Stored energy uses elastic strain; dU/dP alone omits free thermal extension when temperature is nonzero."
+  ]
+}

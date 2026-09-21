@@ -1,0 +1,7 @@
+{
+  "force_N": 10000,
+  "length_m": 0.5,
+  "root_area_m2": 0.0002,
+  "E_Pa": 69000000000.0,
+  "taper_ratio": 1
+}

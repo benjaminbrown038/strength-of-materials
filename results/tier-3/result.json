@@ -1,0 +1,562 @@
+{
+  "inputs": {
+    "tip_force_N": 200,
+    "length_m": 0.15,
+    "width_m": 0.03,
+    "height_m": 0.012,
+    "E_Pa": 69000000000.0
+  },
+  "title": "Tier 3: beam bending, transverse shear, and deflection",
+  "metrics": {
+    "second_moment_m4": 4.32e-09,
+    "root_moment_magnitude_Nm": 30.0,
+    "max_bending_stress_MPa": 41.666666666666664,
+    "max_transverse_shear_MPa": 0.8333333333333334,
+    "tip_deflection_mm": 0.754830917874396,
+    "tip_slope_rad": 0.007548309178743962,
+    "span_to_height": 12.5,
+    "deflection_to_span": 0.005032206119162641
+  },
+  "tables": [
+    {
+      "name": "beam_deflection",
+      "rows": [
+        {
+          "x_m": 0.0,
+          "deflection_mm": 0.0,
+          "moment_magnitude_Nm": 30.0
+        },
+        {
+          "x_m": 0.003,
+          "deflection_mm": 0.0004498792270531401,
+          "moment_magnitude_Nm": 29.4
+        },
+        {
+          "x_m": 0.006,
+          "deflection_mm": 0.0017874396135265699,
+          "moment_magnitude_Nm": 28.799999999999997
+        },
+        {
+          "x_m": 0.009,
+          "deflection_mm": 0.003994565217391304,
+          "moment_magnitude_Nm": 28.199999999999996
+        },
+        {
+          "x_m": 0.012,
+          "deflection_mm": 0.007053140096618356,
+          "moment_magnitude_Nm": 27.599999999999998
+        },
+        {
+          "x_m": 0.015,
+          "deflection_mm": 0.010945048309178742,
+          "moment_magnitude_Nm": 27.0
+        },
+        {
+          "x_m": 0.018,
+          "deflection_mm": 0.015652173913043476,
+          "moment_magnitude_Nm": 26.400000000000002
+        },
+        {
+          "x_m": 0.021,
+          "deflection_mm": 0.021156400966183573,
+          "moment_magnitude_Nm": 25.8
+        },
+        {
+          "x_m": 0.024,
+          "deflection_mm": 0.027439613526570046,
+          "moment_magnitude_Nm": 25.2
+        },
+        {
+          "x_m": 0.026999999999999996,
+          "deflection_mm": 0.0344836956521739,
+          "moment_magnitude_Nm": 24.6
+        },
+        {
+          "x_m": 0.03,
+          "deflection_mm": 0.04227053140096618,
+          "moment_magnitude_Nm": 24.0
+        },
+        {
+          "x_m": 0.033,
+          "deflection_mm": 0.05078200483091787,
+          "moment_magnitude_Nm": 23.4
+        },
+        {
+          "x_m": 0.036,
+          "deflection_mm": 0.05999999999999999,
+          "moment_magnitude_Nm": 22.799999999999997
+        },
+        {
+          "x_m": 0.039,
+          "deflection_mm": 0.06990640096618357,
+          "moment_magnitude_Nm": 22.199999999999996
+        },
+        {
+          "x_m": 0.042,
+          "deflection_mm": 0.0804830917874396,
+          "moment_magnitude_Nm": 21.599999999999998
+        },
+        {
+          "x_m": 0.045,
+          "deflection_mm": 0.09171195652173912,
+          "moment_magnitude_Nm": 21.0
+        },
+        {
+          "x_m": 0.048,
+          "deflection_mm": 0.10357487922705312,
+          "moment_magnitude_Nm": 20.4
+        },
+        {
+          "x_m": 0.051,
+          "deflection_mm": 0.11605374396135264,
+          "moment_magnitude_Nm": 19.8
+        },
+        {
+          "x_m": 0.05399999999999999,
+          "deflection_mm": 0.12913043478260863,
+          "moment_magnitude_Nm": 19.2
+        },
+        {
+          "x_m": 0.057,
+          "deflection_mm": 0.14278683574879228,
+          "moment_magnitude_Nm": 18.6
+        },
+        {
+          "x_m": 0.06,
+          "deflection_mm": 0.15700483091787437,
+          "moment_magnitude_Nm": 18.0
+        },
+        {
+          "x_m": 0.063,
+          "deflection_mm": 0.17176630434782608,
+          "moment_magnitude_Nm": 17.4
+        },
+        {
+          "x_m": 0.066,
+          "deflection_mm": 0.18705314009661836,
+          "moment_magnitude_Nm": 16.799999999999997
+        },
+        {
+          "x_m": 0.06899999999999999,
+          "deflection_mm": 0.20284722222222212,
+          "moment_magnitude_Nm": 16.2
+        },
+        {
+          "x_m": 0.072,
+          "deflection_mm": 0.21913043478260866,
+          "moment_magnitude_Nm": 15.6
+        },
+        {
+          "x_m": 0.075,
+          "deflection_mm": 0.23588466183574877,
+          "moment_magnitude_Nm": 15.0
+        },
+        {
+          "x_m": 0.078,
+          "deflection_mm": 0.25309178743961347,
+          "moment_magnitude_Nm": 14.399999999999999
+        },
+        {
+          "x_m": 0.081,
+          "deflection_mm": 0.27073369565217387,
+          "moment_magnitude_Nm": 13.799999999999999
+        },
+        {
+          "x_m": 0.084,
+          "deflection_mm": 0.28879227053140094,
+          "moment_magnitude_Nm": 13.199999999999998
+        },
+        {
+          "x_m": 0.087,
+          "deflection_mm": 0.30724939613526564,
+          "moment_magnitude_Nm": 12.6
+        },
+        {
+          "x_m": 0.09,
+          "deflection_mm": 0.3260869565217391,
+          "moment_magnitude_Nm": 12.0
+        },
+        {
+          "x_m": 0.09299999999999999,
+          "deflection_mm": 0.3452868357487921,
+          "moment_magnitude_Nm": 11.400000000000002
+        },
+        {
+          "x_m": 0.096,
+          "deflection_mm": 0.36483091787439614,
+          "moment_magnitude_Nm": 10.799999999999999
+        },
+        {
+          "x_m": 0.099,
+          "deflection_mm": 0.38470108695652167,
+          "moment_magnitude_Nm": 10.199999999999998
+        },
+        {
+          "x_m": 0.102,
+          "deflection_mm": 0.40487922705314,
+          "moment_magnitude_Nm": 9.6
+        },
+        {
+          "x_m": 0.105,
+          "deflection_mm": 0.4253472222222221,
+          "moment_magnitude_Nm": 9.0
+        },
+        {
+          "x_m": 0.10799999999999998,
+          "deflection_mm": 0.4460869565217389,
+          "moment_magnitude_Nm": 8.400000000000002
+        },
+        {
+          "x_m": 0.111,
+          "deflection_mm": 0.4670803140096618,
+          "moment_magnitude_Nm": 7.799999999999999
+        },
+        {
+          "x_m": 0.114,
+          "deflection_mm": 0.48830917874396135,
+          "moment_magnitude_Nm": 7.199999999999998
+        },
+        {
+          "x_m": 0.11699999999999999,
+          "deflection_mm": 0.5097554347826085,
+          "moment_magnitude_Nm": 6.6000000000000005
+        },
+        {
+          "x_m": 0.12,
+          "deflection_mm": 0.5314009661835748,
+          "moment_magnitude_Nm": 6.0
+        },
+        {
+          "x_m": 0.12299999999999998,
+          "deflection_mm": 0.5532276570048307,
+          "moment_magnitude_Nm": 5.400000000000002
+        },
+        {
+          "x_m": 0.126,
+          "deflection_mm": 0.5752173913043478,
+          "moment_magnitude_Nm": 4.799999999999999
+        },
+        {
+          "x_m": 0.129,
+          "deflection_mm": 0.5973520531400965,
+          "moment_magnitude_Nm": 4.199999999999998
+        },
+        {
+          "x_m": 0.132,
+          "deflection_mm": 0.6196135265700482,
+          "moment_magnitude_Nm": 3.599999999999998
+        },
+        {
+          "x_m": 0.135,
+          "deflection_mm": 0.6419836956521738,
+          "moment_magnitude_Nm": 2.9999999999999973
+        },
+        {
+          "x_m": 0.13799999999999998,
+          "deflection_mm": 0.6644444444444441,
+          "moment_magnitude_Nm": 2.400000000000002
+        },
+        {
+          "x_m": 0.141,
+          "deflection_mm": 0.6869776570048307,
+          "moment_magnitude_Nm": 1.8000000000000016
+        },
+        {
+          "x_m": 0.144,
+          "deflection_mm": 0.7095652173913041,
+          "moment_magnitude_Nm": 1.200000000000001
+        },
+        {
+          "x_m": 0.147,
+          "deflection_mm": 0.7321890096618355,
+          "moment_magnitude_Nm": 0.6000000000000005
+        },
+        {
+          "x_m": 0.15,
+          "deflection_mm": 0.754830917874396,
+          "moment_magnitude_Nm": 0.0
+        }
+      ],
+      "x": "x_m",
+      "ys": [
+        "deflection_mm"
+      ],
+      "xlabel": "Position x (m)",
+      "ylabel": "Downward deflection (mm)",
+      "log": false
+    },
+    {
+      "name": "section_stress",
+      "rows": [
+        {
+          "y_mm": -6.0,
+          "bending_MPa": 41.666666666666664,
+          "transverse_shear_MPa": 0.0
+        },
+        {
+          "y_mm": -5.760000000000001,
+          "bending_MPa": 40.0,
+          "transverse_shear_MPa": 0.06533333333333317
+        },
+        {
+          "y_mm": -5.52,
+          "bending_MPa": 38.333333333333336,
+          "transverse_shear_MPa": 0.12800000000000017
+        },
+        {
+          "y_mm": -5.28,
+          "bending_MPa": 36.666666666666664,
+          "transverse_shear_MPa": 0.18800000000000003
+        },
+        {
+          "y_mm": -5.04,
+          "bending_MPa": 35.0,
+          "transverse_shear_MPa": 0.24533333333333343
+        },
+        {
+          "y_mm": -4.800000000000001,
+          "bending_MPa": 33.333333333333336,
+          "transverse_shear_MPa": 0.2999999999999999
+        },
+        {
+          "y_mm": -4.56,
+          "bending_MPa": 31.666666666666668,
+          "transverse_shear_MPa": 0.352
+        },
+        {
+          "y_mm": -4.32,
+          "bending_MPa": 30.0,
+          "transverse_shear_MPa": 0.4013333333333334
+        },
+        {
+          "y_mm": -4.08,
+          "bending_MPa": 28.333333333333336,
+          "transverse_shear_MPa": 0.4479999999999999
+        },
+        {
+          "y_mm": -3.8400000000000003,
+          "bending_MPa": 26.666666666666668,
+          "transverse_shear_MPa": 0.49200000000000005
+        },
+        {
+          "y_mm": -3.6000000000000005,
+          "bending_MPa": 25.000000000000004,
+          "transverse_shear_MPa": 0.5333333333333332
+        },
+        {
+          "y_mm": -3.3600000000000003,
+          "bending_MPa": 23.333333333333332,
+          "transverse_shear_MPa": 0.572
+        },
+        {
+          "y_mm": -3.12,
+          "bending_MPa": 21.666666666666668,
+          "transverse_shear_MPa": 0.608
+        },
+        {
+          "y_mm": -2.8800000000000003,
+          "bending_MPa": 20.0,
+          "transverse_shear_MPa": 0.6413333333333334
+        },
+        {
+          "y_mm": -2.64,
+          "bending_MPa": 18.333333333333332,
+          "transverse_shear_MPa": 0.672
+        },
+        {
+          "y_mm": -2.4000000000000004,
+          "bending_MPa": 16.666666666666668,
+          "transverse_shear_MPa": 0.7
+        },
+        {
+          "y_mm": -2.16,
+          "bending_MPa": 15.0,
+          "transverse_shear_MPa": 0.7253333333333334
+        },
+        {
+          "y_mm": -1.92,
+          "bending_MPa": 13.333333333333334,
+          "transverse_shear_MPa": 0.7480000000000001
+        },
+        {
+          "y_mm": -1.6800000000000002,
+          "bending_MPa": 11.666666666666666,
+          "transverse_shear_MPa": 0.768
+        },
+        {
+          "y_mm": -1.4400000000000004,
+          "bending_MPa": 10.000000000000002,
+          "transverse_shear_MPa": 0.7853333333333333
+        },
+        {
+          "y_mm": -1.2000000000000006,
+          "bending_MPa": 8.333333333333337,
+          "transverse_shear_MPa": 0.8
+        },
+        {
+          "y_mm": -0.96,
+          "bending_MPa": 6.666666666666667,
+          "transverse_shear_MPa": 0.8120000000000002
+        },
+        {
+          "y_mm": -0.7200000000000002,
+          "bending_MPa": 5.000000000000001,
+          "transverse_shear_MPa": 0.8213333333333334
+        },
+        {
+          "y_mm": -0.47999999999999954,
+          "bending_MPa": 3.3333333333333304,
+          "transverse_shear_MPa": 0.8280000000000001
+        },
+        {
+          "y_mm": -0.23999999999999977,
+          "bending_MPa": 1.6666666666666652,
+          "transverse_shear_MPa": 0.832
+        },
+        {
+          "y_mm": 0.0,
+          "bending_MPa": -0.0,
+          "transverse_shear_MPa": 0.8333333333333334
+        },
+        {
+          "y_mm": 0.23999999999999977,
+          "bending_MPa": -1.6666666666666652,
+          "transverse_shear_MPa": 0.832
+        },
+        {
+          "y_mm": 0.48000000000000037,
+          "bending_MPa": -3.333333333333336,
+          "transverse_shear_MPa": 0.8280000000000001
+        },
+        {
+          "y_mm": 0.7200000000000002,
+          "bending_MPa": -5.000000000000001,
+          "transverse_shear_MPa": 0.8213333333333334
+        },
+        {
+          "y_mm": 0.9600000000000007,
+          "bending_MPa": -6.666666666666672,
+          "transverse_shear_MPa": 0.812
+        },
+        {
+          "y_mm": 1.1999999999999997,
+          "bending_MPa": -8.33333333333333,
+          "transverse_shear_MPa": 0.8
+        },
+        {
+          "y_mm": 1.4399999999999995,
+          "bending_MPa": -9.999999999999996,
+          "transverse_shear_MPa": 0.7853333333333333
+        },
+        {
+          "y_mm": 1.6800000000000002,
+          "bending_MPa": -11.666666666666666,
+          "transverse_shear_MPa": 0.768
+        },
+        {
+          "y_mm": 1.92,
+          "bending_MPa": -13.333333333333334,
+          "transverse_shear_MPa": 0.7480000000000001
+        },
+        {
+          "y_mm": 2.1600000000000006,
+          "bending_MPa": -15.000000000000002,
+          "transverse_shear_MPa": 0.7253333333333334
+        },
+        {
+          "y_mm": 2.3999999999999995,
+          "bending_MPa": -16.66666666666666,
+          "transverse_shear_MPa": 0.7000000000000001
+        },
+        {
+          "y_mm": 2.64,
+          "bending_MPa": -18.333333333333332,
+          "transverse_shear_MPa": 0.672
+        },
+        {
+          "y_mm": 2.880000000000001,
+          "bending_MPa": -20.000000000000004,
+          "transverse_shear_MPa": 0.6413333333333334
+        },
+        {
+          "y_mm": 3.1199999999999997,
+          "bending_MPa": -21.666666666666664,
+          "transverse_shear_MPa": 0.608
+        },
+        {
+          "y_mm": 3.3600000000000003,
+          "bending_MPa": -23.333333333333332,
+          "transverse_shear_MPa": 0.572
+        },
+        {
+          "y_mm": 3.599999999999999,
+          "bending_MPa": -24.999999999999993,
+          "transverse_shear_MPa": 0.5333333333333334
+        },
+        {
+          "y_mm": 3.84,
+          "bending_MPa": -26.666666666666668,
+          "transverse_shear_MPa": 0.4920000000000001
+        },
+        {
+          "y_mm": 4.08,
+          "bending_MPa": -28.333333333333336,
+          "transverse_shear_MPa": 0.4479999999999999
+        },
+        {
+          "y_mm": 4.320000000000001,
+          "bending_MPa": -30.000000000000004,
+          "transverse_shear_MPa": 0.40133333333333326
+        },
+        {
+          "y_mm": 4.56,
+          "bending_MPa": -31.666666666666668,
+          "transverse_shear_MPa": 0.352
+        },
+        {
+          "y_mm": 4.800000000000001,
+          "bending_MPa": -33.333333333333336,
+          "transverse_shear_MPa": 0.2999999999999999
+        },
+        {
+          "y_mm": 5.040000000000001,
+          "bending_MPa": -35.00000000000001,
+          "transverse_shear_MPa": 0.24533333333333304
+        },
+        {
+          "y_mm": 5.280000000000002,
+          "bending_MPa": -36.66666666666668,
+          "transverse_shear_MPa": 0.18799999999999964
+        },
+        {
+          "y_mm": 5.5200000000000005,
+          "bending_MPa": -38.333333333333336,
+          "transverse_shear_MPa": 0.12799999999999997
+        },
+        {
+          "y_mm": 5.76,
+          "bending_MPa": -39.99999999999999,
+          "transverse_shear_MPa": 0.06533333333333353
+        },
+        {
+          "y_mm": 6.0,
+          "bending_MPa": -41.666666666666664,
+          "transverse_shear_MPa": 0.0
+        }
+      ],
+      "x": "y_mm",
+      "ys": [
+        "bending_MPa",
+        "transverse_shear_MPa"
+      ],
+      "xlabel": "Section coordinate y, positive downward (mm)",
+      "ylabel": "Stress (MPa)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "y is positive downward; the top surface is in tension and the bottom in compression.",
+    "Bending and transverse-shear maxima occur at different section locations; do not combine both maxima at one point.",
+    "Euler-Bernoulli theory neglects shear deflection, clamp details, root fillets, and large rotations."
+  ]
+}

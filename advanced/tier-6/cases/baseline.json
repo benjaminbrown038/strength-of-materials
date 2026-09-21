@@ -1,0 +1,9 @@
+{
+  "compression_N": 3000,
+  "length_m": 1,
+  "width_m": 0.025,
+  "height_m": 0.012,
+  "E_Pa": 69000000000.0,
+  "yield_strength_Pa": 276000000.0,
+  "effective_length_factor": 1
+}

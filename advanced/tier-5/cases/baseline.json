@@ -1,0 +1,11 @@
+{
+  "force_N": 10000,
+  "length_m": 0.5,
+  "E1_Pa": 200000000000.0,
+  "area1_m2": 0.0002,
+  "alpha1_per_K": 1.2e-05,
+  "E2_Pa": 69000000000.0,
+  "area2_m2": 0.0003,
+  "alpha2_per_K": 2.3e-05,
+  "temperature_change_K": 50
+}

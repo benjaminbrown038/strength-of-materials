@@ -1,0 +1,9 @@
+{
+  "axial_force_N": 4000,
+  "bending_moment_Nm": 60,
+  "torque_Nm": 50,
+  "diameter_m": 0.025,
+  "E_Pa": 200000000000.0,
+  "poisson": 0.3,
+  "yield_strength_Pa": 350000000.0
+}

@@ -1,0 +1,3 @@
+# Optional only. All calculations, CSV output, and tests use the standard library.
+# pip chooses a compatible release for the active Python version.
+matplotlib>=3.6

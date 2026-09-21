@@ -1,0 +1,351 @@
+{
+  "inputs": {
+    "force_N": 10000,
+    "length_m": 0.5,
+    "diameter_m": 0.012,
+    "E_Pa": 69000000000.0,
+    "poisson": 0.33,
+    "alpha_per_K": 2.3e-05,
+    "temperature_change_K": 40
+  },
+  "title": "Tier 1: axial stress, strain, and temperature",
+  "metrics": {
+    "area_mm2": 113.09733552923255,
+    "stress_MPa": 88.41941282883074,
+    "mechanical_strain": 0.0012814407656352282,
+    "thermal_strain": 0.00092,
+    "total_axial_strain": 0.002201440765635228,
+    "mechanical_extension_mm": 0.6407203828176141,
+    "thermal_extension_mm": 0.46,
+    "total_extension_mm": 1.1007203828176142,
+    "diameter_change_um": 5.965494568084496,
+    "axial_stiffness_N_per_m": 15607432.303034091
+  },
+  "tables": [
+    {
+      "name": "axial_displacement",
+      "rows": [
+        {
+          "x_m": 0.0,
+          "mechanical_mm": 0.0,
+          "thermal_mm": 0.0,
+          "total_mm": 0.0
+        },
+        {
+          "x_m": 0.01,
+          "mechanical_mm": 0.012814407656352283,
+          "thermal_mm": 0.0092,
+          "total_mm": 0.022014407656352285
+        },
+        {
+          "x_m": 0.02,
+          "mechanical_mm": 0.025628815312704566,
+          "thermal_mm": 0.0184,
+          "total_mm": 0.04402881531270457
+        },
+        {
+          "x_m": 0.03,
+          "mechanical_mm": 0.03844322296905685,
+          "thermal_mm": 0.0276,
+          "total_mm": 0.06604322296905685
+        },
+        {
+          "x_m": 0.04,
+          "mechanical_mm": 0.05125763062540913,
+          "thermal_mm": 0.0368,
+          "total_mm": 0.08805763062540914
+        },
+        {
+          "x_m": 0.05,
+          "mechanical_mm": 0.06407203828176142,
+          "thermal_mm": 0.046000000000000006,
+          "total_mm": 0.11007203828176143
+        },
+        {
+          "x_m": 0.06,
+          "mechanical_mm": 0.0768864459381137,
+          "thermal_mm": 0.0552,
+          "total_mm": 0.1320864459381137
+        },
+        {
+          "x_m": 0.07,
+          "mechanical_mm": 0.08970085359446599,
+          "thermal_mm": 0.06440000000000001,
+          "total_mm": 0.15410085359446601
+        },
+        {
+          "x_m": 0.08,
+          "mechanical_mm": 0.10251526125081827,
+          "thermal_mm": 0.0736,
+          "total_mm": 0.17611526125081828
+        },
+        {
+          "x_m": 0.09,
+          "mechanical_mm": 0.11532966890717054,
+          "thermal_mm": 0.0828,
+          "total_mm": 0.19812966890717054
+        },
+        {
+          "x_m": 0.1,
+          "mechanical_mm": 0.12814407656352284,
+          "thermal_mm": 0.09200000000000001,
+          "total_mm": 0.22014407656352286
+        },
+        {
+          "x_m": 0.11,
+          "mechanical_mm": 0.1409584842198751,
+          "thermal_mm": 0.1012,
+          "total_mm": 0.24215848421987513
+        },
+        {
+          "x_m": 0.12,
+          "mechanical_mm": 0.1537728918762274,
+          "thermal_mm": 0.1104,
+          "total_mm": 0.2641728918762274
+        },
+        {
+          "x_m": 0.13,
+          "mechanical_mm": 0.16658729953257967,
+          "thermal_mm": 0.11960000000000001,
+          "total_mm": 0.2861872995325797
+        },
+        {
+          "x_m": 0.14,
+          "mechanical_mm": 0.17940170718893197,
+          "thermal_mm": 0.12880000000000003,
+          "total_mm": 0.30820170718893203
+        },
+        {
+          "x_m": 0.15,
+          "mechanical_mm": 0.19221611484528422,
+          "thermal_mm": 0.138,
+          "total_mm": 0.33021611484528424
+        },
+        {
+          "x_m": 0.16,
+          "mechanical_mm": 0.20503052250163653,
+          "thermal_mm": 0.1472,
+          "total_mm": 0.35223052250163656
+        },
+        {
+          "x_m": 0.17,
+          "mechanical_mm": 0.2178449301579888,
+          "thermal_mm": 0.1564,
+          "total_mm": 0.3742449301579889
+        },
+        {
+          "x_m": 0.18,
+          "mechanical_mm": 0.2306593378143411,
+          "thermal_mm": 0.1656,
+          "total_mm": 0.3962593378143411
+        },
+        {
+          "x_m": 0.19,
+          "mechanical_mm": 0.24347374547069336,
+          "thermal_mm": 0.1748,
+          "total_mm": 0.4182737454706934
+        },
+        {
+          "x_m": 0.2,
+          "mechanical_mm": 0.25628815312704567,
+          "thermal_mm": 0.18400000000000002,
+          "total_mm": 0.4402881531270457
+        },
+        {
+          "x_m": 0.21,
+          "mechanical_mm": 0.26910256078339795,
+          "thermal_mm": 0.1932,
+          "total_mm": 0.46230256078339793
+        },
+        {
+          "x_m": 0.22,
+          "mechanical_mm": 0.2819169684397502,
+          "thermal_mm": 0.2024,
+          "total_mm": 0.48431696843975025
+        },
+        {
+          "x_m": 0.23,
+          "mechanical_mm": 0.2947313760961025,
+          "thermal_mm": 0.2116,
+          "total_mm": 0.5063313760961026
+        },
+        {
+          "x_m": 0.24,
+          "mechanical_mm": 0.3075457837524548,
+          "thermal_mm": 0.2208,
+          "total_mm": 0.5283457837524548
+        },
+        {
+          "x_m": 0.25,
+          "mechanical_mm": 0.32036019140880706,
+          "thermal_mm": 0.23,
+          "total_mm": 0.5503601914088071
+        },
+        {
+          "x_m": 0.26,
+          "mechanical_mm": 0.33317459906515934,
+          "thermal_mm": 0.23920000000000002,
+          "total_mm": 0.5723745990651594
+        },
+        {
+          "x_m": 0.27,
+          "mechanical_mm": 0.34598900672151167,
+          "thermal_mm": 0.24840000000000004,
+          "total_mm": 0.5943890067215117
+        },
+        {
+          "x_m": 0.28,
+          "mechanical_mm": 0.35880341437786395,
+          "thermal_mm": 0.25760000000000005,
+          "total_mm": 0.6164034143778641
+        },
+        {
+          "x_m": 0.29,
+          "mechanical_mm": 0.37161782203421617,
+          "thermal_mm": 0.2668,
+          "total_mm": 0.6384178220342162
+        },
+        {
+          "x_m": 0.3,
+          "mechanical_mm": 0.38443222969056845,
+          "thermal_mm": 0.276,
+          "total_mm": 0.6604322296905685
+        },
+        {
+          "x_m": 0.31,
+          "mechanical_mm": 0.39724663734692073,
+          "thermal_mm": 0.2852,
+          "total_mm": 0.6824466373469208
+        },
+        {
+          "x_m": 0.32,
+          "mechanical_mm": 0.41006104500327306,
+          "thermal_mm": 0.2944,
+          "total_mm": 0.7044610450032731
+        },
+        {
+          "x_m": 0.33,
+          "mechanical_mm": 0.42287545265962534,
+          "thermal_mm": 0.30360000000000004,
+          "total_mm": 0.7264754526596254
+        },
+        {
+          "x_m": 0.34,
+          "mechanical_mm": 0.4356898603159776,
+          "thermal_mm": 0.3128,
+          "total_mm": 0.7484898603159778
+        },
+        {
+          "x_m": 0.35,
+          "mechanical_mm": 0.44850426797232984,
+          "thermal_mm": 0.322,
+          "total_mm": 0.7705042679723298
+        },
+        {
+          "x_m": 0.36,
+          "mechanical_mm": 0.4613186756286822,
+          "thermal_mm": 0.3312,
+          "total_mm": 0.7925186756286822
+        },
+        {
+          "x_m": 0.37,
+          "mechanical_mm": 0.47413308328503445,
+          "thermal_mm": 0.34040000000000004,
+          "total_mm": 0.8145330832850345
+        },
+        {
+          "x_m": 0.38,
+          "mechanical_mm": 0.48694749094138673,
+          "thermal_mm": 0.3496,
+          "total_mm": 0.8365474909413868
+        },
+        {
+          "x_m": 0.39,
+          "mechanical_mm": 0.499761898597739,
+          "thermal_mm": 0.3588,
+          "total_mm": 0.8585618985977391
+        },
+        {
+          "x_m": 0.4,
+          "mechanical_mm": 0.5125763062540913,
+          "thermal_mm": 0.36800000000000005,
+          "total_mm": 0.8805763062540914
+        },
+        {
+          "x_m": 0.41,
+          "mechanical_mm": 0.5253907139104436,
+          "thermal_mm": 0.3772,
+          "total_mm": 0.9025907139104435
+        },
+        {
+          "x_m": 0.42,
+          "mechanical_mm": 0.5382051215667959,
+          "thermal_mm": 0.3864,
+          "total_mm": 0.9246051215667959
+        },
+        {
+          "x_m": 0.43,
+          "mechanical_mm": 0.5510195292231481,
+          "thermal_mm": 0.3956,
+          "total_mm": 0.9466195292231482
+        },
+        {
+          "x_m": 0.44,
+          "mechanical_mm": 0.5638339368795005,
+          "thermal_mm": 0.4048,
+          "total_mm": 0.9686339368795005
+        },
+        {
+          "x_m": 0.45,
+          "mechanical_mm": 0.5766483445358527,
+          "thermal_mm": 0.41400000000000003,
+          "total_mm": 0.9906483445358528
+        },
+        {
+          "x_m": 0.46,
+          "mechanical_mm": 0.589462752192205,
+          "thermal_mm": 0.4232,
+          "total_mm": 1.0126627521922051
+        },
+        {
+          "x_m": 0.47,
+          "mechanical_mm": 0.6022771598485572,
+          "thermal_mm": 0.4324,
+          "total_mm": 1.0346771598485573
+        },
+        {
+          "x_m": 0.48,
+          "mechanical_mm": 0.6150915675049096,
+          "thermal_mm": 0.4416,
+          "total_mm": 1.0566915675049096
+        },
+        {
+          "x_m": 0.49,
+          "mechanical_mm": 0.6279059751612618,
+          "thermal_mm": 0.45080000000000003,
+          "total_mm": 1.078705975161262
+        },
+        {
+          "x_m": 0.5,
+          "mechanical_mm": 0.6407203828176141,
+          "thermal_mm": 0.46,
+          "total_mm": 1.1007203828176142
+        }
+      ],
+      "x": "x_m",
+      "ys": [
+        "mechanical_mm",
+        "thermal_mm",
+        "total_mm"
+      ],
+      "xlabel": "Position x (m)",
+      "ylabel": "Axial displacement (mm)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "Left end fixed; right end can move under prescribed axial force.",
+    "Uniform heating alone creates extension but no axial stress in this model.",
+    "Negative force gives compressive stress; buckling is evaluated separately in Tier 6."
+  ]
+}

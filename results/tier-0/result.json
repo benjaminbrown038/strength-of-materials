@@ -1,0 +1,567 @@
+{
+  "inputs": {
+    "load_N": 1000,
+    "length_m": 1,
+    "load_position_m": 0.4
+  },
+  "title": "Tier 0: units and equilibrium",
+  "metrics": {
+    "reaction_A_N": 600.0,
+    "reaction_B_N": 400.0,
+    "force_residual_N": 0.0,
+    "moment_residual_Nm": 0.0,
+    "max_moment_Nm": 240.0,
+    "length_in": 39.37007874015748
+  },
+  "tables": [
+    {
+      "name": "shear",
+      "rows": [
+        {
+          "x_m": 0.0,
+          "shear_N": 600.0,
+          "moment_Nm": 0.0
+        },
+        {
+          "x_m": 0.02,
+          "shear_N": 600.0,
+          "moment_Nm": 12.0
+        },
+        {
+          "x_m": 0.04,
+          "shear_N": 600.0,
+          "moment_Nm": 24.0
+        },
+        {
+          "x_m": 0.06,
+          "shear_N": 600.0,
+          "moment_Nm": 36.0
+        },
+        {
+          "x_m": 0.08,
+          "shear_N": 600.0,
+          "moment_Nm": 48.0
+        },
+        {
+          "x_m": 0.1,
+          "shear_N": 600.0,
+          "moment_Nm": 60.0
+        },
+        {
+          "x_m": 0.12,
+          "shear_N": 600.0,
+          "moment_Nm": 72.0
+        },
+        {
+          "x_m": 0.14,
+          "shear_N": 600.0,
+          "moment_Nm": 84.00000000000001
+        },
+        {
+          "x_m": 0.16,
+          "shear_N": 600.0,
+          "moment_Nm": 96.0
+        },
+        {
+          "x_m": 0.18,
+          "shear_N": 600.0,
+          "moment_Nm": 108.0
+        },
+        {
+          "x_m": 0.2,
+          "shear_N": 600.0,
+          "moment_Nm": 120.0
+        },
+        {
+          "x_m": 0.22,
+          "shear_N": 600.0,
+          "moment_Nm": 132.0
+        },
+        {
+          "x_m": 0.24,
+          "shear_N": 600.0,
+          "moment_Nm": 144.0
+        },
+        {
+          "x_m": 0.26,
+          "shear_N": 600.0,
+          "moment_Nm": 156.0
+        },
+        {
+          "x_m": 0.28,
+          "shear_N": 600.0,
+          "moment_Nm": 168.00000000000003
+        },
+        {
+          "x_m": 0.3,
+          "shear_N": 600.0,
+          "moment_Nm": 180.0
+        },
+        {
+          "x_m": 0.32,
+          "shear_N": 600.0,
+          "moment_Nm": 192.0
+        },
+        {
+          "x_m": 0.34,
+          "shear_N": 600.0,
+          "moment_Nm": 204.00000000000003
+        },
+        {
+          "x_m": 0.36,
+          "shear_N": 600.0,
+          "moment_Nm": 216.0
+        },
+        {
+          "x_m": 0.38,
+          "shear_N": 600.0,
+          "moment_Nm": 228.0
+        },
+        {
+          "x_m": 0.4,
+          "shear_N": 600.0,
+          "moment_Nm": 240.0
+        },
+        {
+          "x_m": 0.4,
+          "shear_N": -400.0,
+          "moment_Nm": 240.0
+        },
+        {
+          "x_m": 0.42,
+          "shear_N": -400.0,
+          "moment_Nm": 232.00000000000003
+        },
+        {
+          "x_m": 0.44,
+          "shear_N": -400.0,
+          "moment_Nm": 224.00000000000003
+        },
+        {
+          "x_m": 0.46,
+          "shear_N": -400.0,
+          "moment_Nm": 216.0
+        },
+        {
+          "x_m": 0.48,
+          "shear_N": -400.0,
+          "moment_Nm": 208.00000000000006
+        },
+        {
+          "x_m": 0.5,
+          "shear_N": -400.0,
+          "moment_Nm": 200.00000000000003
+        },
+        {
+          "x_m": 0.52,
+          "shear_N": -400.0,
+          "moment_Nm": 192.0
+        },
+        {
+          "x_m": 0.54,
+          "shear_N": -400.0,
+          "moment_Nm": 184.0
+        },
+        {
+          "x_m": 0.56,
+          "shear_N": -400.0,
+          "moment_Nm": 176.00000000000003
+        },
+        {
+          "x_m": 0.58,
+          "shear_N": -400.0,
+          "moment_Nm": 168.00000000000006
+        },
+        {
+          "x_m": 0.6,
+          "shear_N": -400.0,
+          "moment_Nm": 160.00000000000006
+        },
+        {
+          "x_m": 0.62,
+          "shear_N": -400.0,
+          "moment_Nm": 152.00000000000003
+        },
+        {
+          "x_m": 0.64,
+          "shear_N": -400.0,
+          "moment_Nm": 144.0
+        },
+        {
+          "x_m": 0.66,
+          "shear_N": -400.0,
+          "moment_Nm": 136.0
+        },
+        {
+          "x_m": 0.68,
+          "shear_N": -400.0,
+          "moment_Nm": 128.00000000000006
+        },
+        {
+          "x_m": 0.7,
+          "shear_N": -400.0,
+          "moment_Nm": 120.00000000000006
+        },
+        {
+          "x_m": 0.72,
+          "shear_N": -400.0,
+          "moment_Nm": 112.00000000000006
+        },
+        {
+          "x_m": 0.74,
+          "shear_N": -400.0,
+          "moment_Nm": 104.00000000000006
+        },
+        {
+          "x_m": 0.76,
+          "shear_N": -400.0,
+          "moment_Nm": 96.0
+        },
+        {
+          "x_m": 0.78,
+          "shear_N": -400.0,
+          "moment_Nm": 88.0
+        },
+        {
+          "x_m": 0.8,
+          "shear_N": -400.0,
+          "moment_Nm": 80.0
+        },
+        {
+          "x_m": 0.82,
+          "shear_N": -400.0,
+          "moment_Nm": 72.0
+        },
+        {
+          "x_m": 0.84,
+          "shear_N": -400.0,
+          "moment_Nm": 64.00000000000006
+        },
+        {
+          "x_m": 0.86,
+          "shear_N": -400.0,
+          "moment_Nm": 56.00000000000006
+        },
+        {
+          "x_m": 0.88,
+          "shear_N": -400.0,
+          "moment_Nm": 48.0
+        },
+        {
+          "x_m": 0.9,
+          "shear_N": -400.0,
+          "moment_Nm": 40.0
+        },
+        {
+          "x_m": 0.92,
+          "shear_N": -400.0,
+          "moment_Nm": 32.0
+        },
+        {
+          "x_m": 0.94,
+          "shear_N": -400.0,
+          "moment_Nm": 24.000000000000114
+        },
+        {
+          "x_m": 0.96,
+          "shear_N": -400.0,
+          "moment_Nm": 16.000000000000114
+        },
+        {
+          "x_m": 0.98,
+          "shear_N": -400.0,
+          "moment_Nm": 8.0
+        },
+        {
+          "x_m": 1.0,
+          "shear_N": -400.0,
+          "moment_Nm": 0.0
+        }
+      ],
+      "x": "x_m",
+      "ys": [
+        "shear_N"
+      ],
+      "xlabel": "Position x (m)",
+      "ylabel": "Shear V (N)",
+      "log": false
+    },
+    {
+      "name": "moment",
+      "rows": [
+        {
+          "x_m": 0.0,
+          "shear_N": 600.0,
+          "moment_Nm": 0.0
+        },
+        {
+          "x_m": 0.02,
+          "shear_N": 600.0,
+          "moment_Nm": 12.0
+        },
+        {
+          "x_m": 0.04,
+          "shear_N": 600.0,
+          "moment_Nm": 24.0
+        },
+        {
+          "x_m": 0.06,
+          "shear_N": 600.0,
+          "moment_Nm": 36.0
+        },
+        {
+          "x_m": 0.08,
+          "shear_N": 600.0,
+          "moment_Nm": 48.0
+        },
+        {
+          "x_m": 0.1,
+          "shear_N": 600.0,
+          "moment_Nm": 60.0
+        },
+        {
+          "x_m": 0.12,
+          "shear_N": 600.0,
+          "moment_Nm": 72.0
+        },
+        {
+          "x_m": 0.14,
+          "shear_N": 600.0,
+          "moment_Nm": 84.00000000000001
+        },
+        {
+          "x_m": 0.16,
+          "shear_N": 600.0,
+          "moment_Nm": 96.0
+        },
+        {
+          "x_m": 0.18,
+          "shear_N": 600.0,
+          "moment_Nm": 108.0
+        },
+        {
+          "x_m": 0.2,
+          "shear_N": 600.0,
+          "moment_Nm": 120.0
+        },
+        {
+          "x_m": 0.22,
+          "shear_N": 600.0,
+          "moment_Nm": 132.0
+        },
+        {
+          "x_m": 0.24,
+          "shear_N": 600.0,
+          "moment_Nm": 144.0
+        },
+        {
+          "x_m": 0.26,
+          "shear_N": 600.0,
+          "moment_Nm": 156.0
+        },
+        {
+          "x_m": 0.28,
+          "shear_N": 600.0,
+          "moment_Nm": 168.00000000000003
+        },
+        {
+          "x_m": 0.3,
+          "shear_N": 600.0,
+          "moment_Nm": 180.0
+        },
+        {
+          "x_m": 0.32,
+          "shear_N": 600.0,
+          "moment_Nm": 192.0
+        },
+        {
+          "x_m": 0.34,
+          "shear_N": 600.0,
+          "moment_Nm": 204.00000000000003
+        },
+        {
+          "x_m": 0.36,
+          "shear_N": 600.0,
+          "moment_Nm": 216.0
+        },
+        {
+          "x_m": 0.38,
+          "shear_N": 600.0,
+          "moment_Nm": 228.0
+        },
+        {
+          "x_m": 0.4,
+          "shear_N": 600.0,
+          "moment_Nm": 240.0
+        },
+        {
+          "x_m": 0.4,
+          "shear_N": -400.0,
+          "moment_Nm": 240.0
+        },
+        {
+          "x_m": 0.42,
+          "shear_N": -400.0,
+          "moment_Nm": 232.00000000000003
+        },
+        {
+          "x_m": 0.44,
+          "shear_N": -400.0,
+          "moment_Nm": 224.00000000000003
+        },
+        {
+          "x_m": 0.46,
+          "shear_N": -400.0,
+          "moment_Nm": 216.0
+        },
+        {
+          "x_m": 0.48,
+          "shear_N": -400.0,
+          "moment_Nm": 208.00000000000006
+        },
+        {
+          "x_m": 0.5,
+          "shear_N": -400.0,
+          "moment_Nm": 200.00000000000003
+        },
+        {
+          "x_m": 0.52,
+          "shear_N": -400.0,
+          "moment_Nm": 192.0
+        },
+        {
+          "x_m": 0.54,
+          "shear_N": -400.0,
+          "moment_Nm": 184.0
+        },
+        {
+          "x_m": 0.56,
+          "shear_N": -400.0,
+          "moment_Nm": 176.00000000000003
+        },
+        {
+          "x_m": 0.58,
+          "shear_N": -400.0,
+          "moment_Nm": 168.00000000000006
+        },
+        {
+          "x_m": 0.6,
+          "shear_N": -400.0,
+          "moment_Nm": 160.00000000000006
+        },
+        {
+          "x_m": 0.62,
+          "shear_N": -400.0,
+          "moment_Nm": 152.00000000000003
+        },
+        {
+          "x_m": 0.64,
+          "shear_N": -400.0,
+          "moment_Nm": 144.0
+        },
+        {
+          "x_m": 0.66,
+          "shear_N": -400.0,
+          "moment_Nm": 136.0
+        },
+        {
+          "x_m": 0.68,
+          "shear_N": -400.0,
+          "moment_Nm": 128.00000000000006
+        },
+        {
+          "x_m": 0.7,
+          "shear_N": -400.0,
+          "moment_Nm": 120.00000000000006
+        },
+        {
+          "x_m": 0.72,
+          "shear_N": -400.0,
+          "moment_Nm": 112.00000000000006
+        },
+        {
+          "x_m": 0.74,
+          "shear_N": -400.0,
+          "moment_Nm": 104.00000000000006
+        },
+        {
+          "x_m": 0.76,
+          "shear_N": -400.0,
+          "moment_Nm": 96.0
+        },
+        {
+          "x_m": 0.78,
+          "shear_N": -400.0,
+          "moment_Nm": 88.0
+        },
+        {
+          "x_m": 0.8,
+          "shear_N": -400.0,
+          "moment_Nm": 80.0
+        },
+        {
+          "x_m": 0.82,
+          "shear_N": -400.0,
+          "moment_Nm": 72.0
+        },
+        {
+          "x_m": 0.84,
+          "shear_N": -400.0,
+          "moment_Nm": 64.00000000000006
+        },
+        {
+          "x_m": 0.86,
+          "shear_N": -400.0,
+          "moment_Nm": 56.00000000000006
+        },
+        {
+          "x_m": 0.88,
+          "shear_N": -400.0,
+          "moment_Nm": 48.0
+        },
+        {
+          "x_m": 0.9,
+          "shear_N": -400.0,
+          "moment_Nm": 40.0
+        },
+        {
+          "x_m": 0.92,
+          "shear_N": -400.0,
+          "moment_Nm": 32.0
+        },
+        {
+          "x_m": 0.94,
+          "shear_N": -400.0,
+          "moment_Nm": 24.000000000000114
+        },
+        {
+          "x_m": 0.96,
+          "shear_N": -400.0,
+          "moment_Nm": 16.000000000000114
+        },
+        {
+          "x_m": 0.98,
+          "shear_N": -400.0,
+          "moment_Nm": 8.0
+        },
+        {
+          "x_m": 1.0,
+          "shear_N": -400.0,
+          "moment_Nm": 0.0
+        }
+      ],
+      "x": "x_m",
+      "ys": [
+        "moment_Nm"
+      ],
+      "xlabel": "Position x (m)",
+      "ylabel": "Bending moment M (N m)",
+      "log": false
+    }
+  ],
+  "notes": [
+    "P is a downward magnitude; both reactions are positive upward.",
+    "A pin at x=0 and roller at x=L remove rigid-body motion; no horizontal load is applied.",
+    "Force and moment equilibrium determine reactions before stress can be calculated."
+  ]
+}
